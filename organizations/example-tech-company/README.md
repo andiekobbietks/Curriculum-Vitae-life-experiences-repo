@@ -1,5 +1,7 @@
 # Example Tech Company
 
+> **📝 Note**: This is example documentation to demonstrate the structure. Many of the evidence and project links marked as *(example placeholder)* are intentionally not included to keep the example focused. When creating your own documentation, you would create all referenced files.
+
 ## Overview
 
 **Duration:** January 2020 - Present  
@@ -200,7 +202,7 @@ graph TD
 **Role:** Technical Lead  
 **Team Size:** 3 engineers
 
-[View Full Project Documentation](projects/auth-modernization.md)
+[View Full Project Documentation](projects/auth-modernization.md) *(example placeholder)*
 
 ### Microservices Migration
 
@@ -208,7 +210,7 @@ graph TD
 **Role:** Technical Lead  
 **Team Size:** 8 engineers (across teams)
 
-[View Full Project Documentation](projects/microservices-migration.md)
+[View Full Project Documentation](projects/microservices-migration.md) *(example placeholder)*
 
 ---
 
@@ -275,5 +277,7 @@ pie title Impact Distribution
 
 ## Related Experiences
 
-- Previous experience with distributed systems at [Previous Company](../previous-company/README.md)
-- Consulting work on analytics platforms at [Consulting Project](../consulting-projects/analytics-consulting.md)
+> **Note**: The following are examples of how to link to related experiences across organizations. These are placeholders for demonstration.
+
+- Previous experience with distributed systems at [Previous Company](../previous-company/README.md) *(example placeholder)*
+- Consulting work on analytics platforms at [Consulting Project](../consulting-projects/analytics-consulting.md) *(example placeholder)*

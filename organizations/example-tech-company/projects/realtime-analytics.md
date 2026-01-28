@@ -300,10 +300,27 @@ class RealtimeServer {
     });
   }
   
+  authenticate(request) {
+    // Extract and validate authentication token from request
+    // Returns customerId if valid, throws error otherwise
+    const token = request.headers.authorization?.replace('Bearer ', '');
+    // Token validation logic here...
+    return 'customer-id'; // Placeholder
+  }
+  
+  unsubscribe(ws) {
+    const sub = this.subscriptions.get(ws);
+    if (sub) {
+      this.subscriptions.delete(ws);
+      // Clean up Redis subscription if no more clients for this channel
+    }
+  }
+  
   subscribe(customerId, metrics, ws) {
     const channel = `metrics:${customerId}`;
     
-    if (!this.subscriptions.has(channel)) {
+    // Only subscribe to Redis channel once per unique channel
+    if (!Array.from(this.subscriptions.values()).some(s => s.channel === channel)) {
       this.redis.subscribe(channel);
       this.redis.on('message', (ch, message) => {
         this.broadcast(ch, JSON.parse(message));
@@ -504,6 +521,9 @@ As Tech Lead, I was responsible for:
 ---
 
 ## Related Projects
-- [Authentication System Modernization](auth-modernization.md) - Shared infrastructure patterns
-- [Microservices Migration](microservices-migration.md) - Platform services decomposition
+
+> **Note**: The following are example links demonstrating cross-referencing between projects. In real documentation, these would link to actual project files.
+
+- [Authentication System Modernization](auth-modernization.md) *(example placeholder)* - Shared infrastructure patterns
+- [Microservices Migration](microservices-migration.md) *(example placeholder)* - Platform services decomposition
 - [Customer Dashboard Redesign](#) - Integrated real-time features into existing UI

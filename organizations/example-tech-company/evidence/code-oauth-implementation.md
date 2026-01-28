@@ -245,13 +245,14 @@ export class OAuthService {
           throw new Error('Invalid ID token format');
         }
         
-        // Verify issuer
+        // Verify issuer (only for providers that use OIDC)
         const expectedIssuers = {
           google: 'https://accounts.google.com',
           okta: process.env.OKTA_ISSUER
+          // GitHub doesn't use OIDC, so no issuer check needed
         };
         
-        if (decoded.payload.iss !== expectedIssuers[provider]) {
+        if (expectedIssuers[provider] && decoded.payload.iss !== expectedIssuers[provider]) {
           throw new Error('Invalid token issuer');
         }
         
@@ -460,10 +461,12 @@ interface OAuthUserInfo {
 
 ## Related Evidence
 
-- [Authentication System Architecture](design-auth-architecture.md)
-- [Security Audit Results](cert-soc2-audit.md)
-- [Migration Metrics](metrics-auth-migration.md)
-- [Rate Limiting Implementation](code-rate-limiter.md)
+> **Note**: The following are example links demonstrating how to reference related evidence. In a real documentation, these would link to actual evidence files.
+
+- [Authentication System Architecture](design-auth-architecture.md) *(example placeholder)*
+- [Security Audit Results](cert-soc2-audit.md) *(example placeholder)*
+- [Migration Metrics](metrics-auth-migration.md) *(example placeholder)*
+- [Rate Limiting Implementation](code-rate-limiter.md) *(example placeholder)*
 
 ---
 
