@@ -317,7 +317,7 @@ At **Technocamps**, my research on "applications of Generative AI tools for neur
 
 **What This Means for Employers:**
 
-I bring genuine expertise in digital accessibility, grounded in understanding of how different users experience digital products. This isn't merely compliance-oriented accessibility (checking boxes) but user-centered accessibility (genuinely serving diverse needs). For any organisation building digital products or services, I can help ensure they are accessible to the widest possible audience. In regulated environments (public sector, education), accessibility compliance is legally required; in all environments, accessibility is good business sense and ethical practice.
+I bring genuine expertise in digital accessibility, grounded in understanding of how different users experience digital products. This isn't merely compliance-oriented accessibility (checking boxes) but user-centred accessibility (genuinely serving diverse needs). For any organisation building digital products or services, I can help ensure they are accessible to the widest possible audience. In regulated environments (public sector, education), accessibility compliance is legally required; in all environments, accessibility is good business sense and ethical practice.
 
 ---
 
@@ -413,7 +413,7 @@ The common threads are:
 - **Stakeholder communication**: Adapting to different audiences and contexts
 - **Impact orientation**: Measuring success by outcomes, not just outputs
 
-For potential employers or collaborators, this mapping provides a structured way to understand my capabilities in the globally-recognised SFIA framework. Whether the context is a startup seeking product leadership, an enterprise seeking infrastructure support, or a charity seeking digital presence, I bring relevant, demonstrated skills and the adaptability to contribute effectively.
+For potential employers or collaborators, this mapping provides a structured way to understand my capabilities in the globally recognised SFIA framework. Whether the context is a startup seeking product leadership, an enterprise seeking infrastructure support, or a charity seeking digital presence, I bring relevant, demonstrated skills and the adaptability to contribute effectively.
 
 ---
 
