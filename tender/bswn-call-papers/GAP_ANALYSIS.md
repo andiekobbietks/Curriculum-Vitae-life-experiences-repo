@@ -19,15 +19,15 @@ Andrea's proposal demonstrates exceptional alignment with all core BSWN requirem
 
 | # | Gap | Type | Priority | Section |
 |---|-----|------|----------|---------|
-| 1 | Secure Gary Thompson co-consultant agreement | Contractual | HIGH | 2.2, 4.1.1 |
-| 2 | Confirm Microsoft/ElevenLabs nonprofit approvals | Contractual | HIGH | 2.1, 4.1.2 |
+| 1 | Secure Gary Thompson co-consultant agreement | Contractual | HIGH | 2.2, 4.1 Rec 1 |
+| 2 | Confirm Microsoft/ElevenLabs nonprofit approvals | Contractual | HIGH | 2.1, 4.1 Rec 2 |
 | 3 | Develop formal risk register | Documentation | MEDIUM | 3.1 |
 | 4 | Define maintenance SLA terms | Contractual | MEDIUM | 3.4 |
-| 5 | Disaster Recovery/Business Continuity Plan | Documentation | MINOR | 3.2 |
-| 6 | Training curriculum preview | Documentation | MINOR | 3.3 |
-| 7 | ElevenLabs contingency plan | Documentation | LOW-MEDIUM | 3.5 |
+| 5 | Disaster Recovery/Business Continuity Plan | Documentation | LOW | 3.2 |
+| 6 | Training curriculum preview | Documentation | LOW | 3.3 |
+| 7 | ElevenLabs contingency plan | Documentation | MEDIUM | 3.5 |
 
-**Note:** All gaps are minor (documentation or contractual) and can be addressed during contract negotiation phase. No critical technical or capability gaps identified.
+**Note:** Priority reflects recommended action urgency. All gaps are minor (documentation or contractual) and can be addressed during contract negotiation phase. No critical technical or capability gaps identified.
 
 ---
 
@@ -266,15 +266,15 @@ Request contingency plan:
 
 The following table consolidates all identified gaps for easy reference during contract negotiation:
 
-| # | Gap Description | Type | Severity | Risk Level | Recommended Action | Timeline |
-|---|----------------|------|----------|------------|-------------------|----------|
-| **1** | **Gary Thompson Co-Consultant Agreement** | Contractual | MINOR | MEDIUM | Formalize Gary Thompson's role as co-consultant with defined responsibilities in WP1, WP3, WP5 | Contract Phase |
-| **2** | **Microsoft/ElevenLabs Nonprofit Approvals** | Contractual | MINOR | LOW | Make WP1 milestone conditional on successful Microsoft nonprofit registration AND ElevenLabs Impact Program approval | WP1 Milestone |
-| **3** | **Formal Risk Register** | Documentation | MINOR | LOW | Request formal Project Risk Register as WP1 deliverable covering technical, community, financial, and timeline risks | WP1 Deliverable |
-| **4** | **Maintenance SLA Terms** | Contractual | MINOR | LOW | Define explicit SLA including response times (critical vs non-critical), scope boundaries, annual day allocation | Contract Phase |
-| **5** | **Disaster Recovery/Business Continuity Plan** | Documentation | MINOR | LOW | Include DR/BCP as explicit deliverable in WP2 with RTO, RPO, backup policies, restoration procedures | WP2 Deliverable |
-| **6** | **Training Curriculum Preview** | Documentation | MINOR | LOW | Request training curriculum outline during contract negotiation (module structure, learning outcomes, delivery format) | Contract Phase |
-| **7** | **ElevenLabs Contingency Plan** | Documentation | MINOR | LOW-MEDIUM | Request alternative voice preservation plan (Azure AI Speech, budget allocation if grant not secured) | Contract Phase |
+| # | Gap Description | Type | Priority | Recommended Action | Timeline |
+|---|----------------|------|----------|-------------------|----------|
+| **1** | **Gary Thompson Co-Consultant Agreement** | Contractual | HIGH | Formalize Gary Thompson's role as co-consultant with defined responsibilities in WP1, WP3, WP5 | Contract Phase |
+| **2** | **Microsoft/ElevenLabs Nonprofit Approvals** | Contractual | HIGH | Make WP1 milestone conditional on successful Microsoft nonprofit registration AND ElevenLabs Impact Program approval | WP1 Milestone |
+| **3** | **Formal Risk Register** | Documentation | MEDIUM | Request formal Project Risk Register as WP1 deliverable covering technical, community, financial, and timeline risks | WP1 Deliverable |
+| **4** | **Maintenance SLA Terms** | Contractual | MEDIUM | Define explicit SLA including response times (critical vs non-critical), scope boundaries, annual day allocation | Contract Phase |
+| **5** | **Disaster Recovery/Business Continuity Plan** | Documentation | LOW | Include DR/BCP as explicit deliverable in WP2 with RTO, RPO, backup policies, restoration procedures | WP2 Deliverable |
+| **6** | **Training Curriculum Preview** | Documentation | LOW | Request training curriculum outline during contract negotiation (module structure, learning outcomes, delivery format) | Contract Phase |
+| **7** | **ElevenLabs Contingency Plan** | Documentation | MEDIUM | Request alternative voice preservation plan (Azure AI Speech, budget allocation if grant not secured) | Contract Phase |
 
 ### Gap Analysis Summary Statistics
 

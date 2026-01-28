@@ -101,13 +101,13 @@ Based on BSWN's UnMuseum Developer call, this checklist verifies Andrea Enning's
 
 | # | Gap | Type | Action Required |
 |---|-----|------|-----------------|
-| 1 | Secure Gary Thompson co-consultant agreement | Contractual | Contract phase |
-| 2 | Confirm Microsoft/ElevenLabs nonprofit approvals | Contractual | WP1 milestone |
-| 3 | Develop formal risk register | Documentation | WP1 deliverable |
-| 4 | Define maintenance SLA terms | Contractual | Contract phase |
-| 5 | Disaster Recovery/Business Continuity Plan | Documentation | WP2 deliverable |
-| 6 | Training curriculum preview | Documentation | Contract phase |
-| 7 | ElevenLabs contingency plan | Documentation | Contract phase |
+| 1 | Secure Gary Thompson co-consultant agreement | Contractual | Contract Phase |
+| 2 | Confirm Microsoft/ElevenLabs nonprofit approvals | Contractual | WP1 Milestone |
+| 3 | Develop formal risk register | Documentation | WP1 Deliverable |
+| 4 | Define maintenance SLA terms | Contractual | Contract Phase |
+| 5 | Disaster Recovery/Business Continuity Plan | Documentation | WP2 Deliverable |
+| 6 | Training curriculum preview | Documentation | Contract Phase |
+| 7 | ElevenLabs contingency plan | Documentation | Contract Phase |
 
 **Note:** All gaps are minor and addressable during contract negotiation. No critical technical or capability gaps identified.
 
