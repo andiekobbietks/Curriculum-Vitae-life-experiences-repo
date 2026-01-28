@@ -40,14 +40,36 @@ organizations/
 
 ### Current Organizations
 
+- **[Getaway AI](getaway-ai/README.md)** *(May 2025 - Present)*
+  - Role: Co-Founder / Product Designer / UX Lead
+  - Focus: AI travel planning, product strategy, UI/UX design
+  - Key Achievement: AI architecture research and design prototypes for travel planning agent
+
+- **[Irene Vera Foundation](irene-vera-foundation/README.md)** *(October 2025 - Present)*
+  - Role: Co-Founder / Website Developer
+  - Focus: Charity website development, accessibility advocacy
+  - Key Achievement: Leading website development for neurodiversity charity
+
+- **[FirstGens](firstgens/README.md)** *(February 2024 - Present)*
+  - Role: Community Advisory Group Member
+  - Focus: Strategic input, UCAS partnership, accessibility
+  - Key Achievement: Contributed to UCAS first-generation students page
+
+- **[Technocamps](technocamps/README.md)** *(January 2023 - Present)*
+  - Role: Student Ambassador
+  - Focus: STEM education, workshop delivery, equipment management
+  - Key Achievement: Delivered workshops including Ukrainian refugee children program
+
+### Example Organization (Template Reference)
+
 - **[Example Tech Company](example-tech-company/README.md)** *(Jan 2020 - Present)*
   - Role: Senior Software Engineer → Tech Lead
   - Focus: Real-time analytics, microservices, team leadership
   - Key Achievement: Built real-time analytics platform serving 80% of customers
 
-### Past Organizations
+### Cross-Organizational Insights
 
-*(Add your past organizations here as you document them)*
+- **[Lessons Learned: WhatsApp Chat Analysis](lessons-learned-whatsapp-analysis.md)** - Consolidated insights across all organizations
 
 ## Quick Start
 
@@ -173,10 +195,11 @@ organizations/
 
 ### Documentation Coverage
 
-- **Organizations Documented:** 1 (Example Tech Company)
-- **Projects Documented:** 1 (Real-Time Analytics Platform)
-- **Evidence Pieces:** 1 (OAuth Implementation)
-- **Time Period Covered:** 2020 - Present
+- **Organizations Documented:** 5 (FirstGens, Technocamps, Irene Vera Foundation, Getaway AI, Example Tech Company)
+- **Projects Documented:** Multiple across organizations
+- **Evidence Pieces:** 6+ (UCAS contribution, workshop delivery, equipment management, AI research, accessibility review, etc.)
+- **Time Period Covered:** 2023 - Present
+- **WhatsApp Chats Processed:** 4 major group chats
 
 ### Update this section as you add more content to track your progress!
 
