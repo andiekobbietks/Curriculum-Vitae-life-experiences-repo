@@ -263,7 +263,7 @@ I bring experience managing relationships with diverse stakeholders—users, dev
 
 ---
 
-#### CIPM - Business Analysis (Level 3)
+#### BUAN - Business Analysis (Level 3)
 
 **SFIA Definition:** Investigating, analysing and documenting business processes, problems and opportunities, and recommending solutions that enable organisations to achieve their objectives.
 
@@ -396,7 +396,7 @@ My experience spans traditional environments (retail, education) and digitally-n
 | Learning Delivery | ETDL | 3-4 | Technocamps workshops, USW mentoring |
 | Learning Management | LEDA | 3 | Technocamps planning, IVF events |
 | Stakeholder Management | RLMT | 3-4 | Multi-stakeholder coordination across roles |
-| Business Analysis | CIPM | 3 | User research, competitive analysis |
+| Business Analysis | BUAN | 3 | User research, competitive analysis |
 | Data Analysis | DTAN | 3 | Feedback analysis, market research |
 | Digital Accessibility | DLMG | 4 | IVF accessibility, Getaway cognitive design |
 

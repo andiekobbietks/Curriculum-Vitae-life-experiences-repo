@@ -102,7 +102,7 @@ SFIA defines **7 levels of responsibility** from Level 1 (Follow) to Level 7 (Se
 
 ### My SFIA Skills Scorecard
 
-Based on documented experiences across 8 organisations and 6 industries, my skills map to the following SFIA competencies:
+Based on documented experiences across 8 organisations and 6 industries, my skills map to the following SFIA competencies (15 skills across 6 categories):
 
 #### Strategy & Architecture
 | Skill | Code | My Level | Description |
@@ -139,9 +139,9 @@ Based on documented experiences across 8 organisations and 6 industries, my skil
 | Skill | Code | My Level | Description |
 |-------|------|----------|-------------|
 | Stakeholder Management | RLMT | **Level 3-4** | Managing relationships, ensuring effective engagement |
-| Business Analysis | CIPM | **Level 3** | Investigating and documenting business processes |
+| Business Analysis | BUAN | **Level 3** | Investigating and documenting business processes |
 
-#### Digital Competencies
+#### Data & Digital
 | Skill | Code | My Level | Description |
 |-------|------|----------|-------------|
 | Data Analysis | DTAN | **Level 3** | Collecting, analysing, and interpreting data |
@@ -185,14 +185,14 @@ Based on my SFIA mapping, my predominant skill levels are **Level 3-4** across 1
 
 **Public Sector Roles:**
 - 🎯 **Mid-Level Digital Professional** (DDaT Practitioner to Senior)
-- Permanent salary range: £42,000 - £65,000
-- Contract day rate: £350 - £550 (Inside IR35)
+- Permanent salary range: £42,000 - £58,000
+- Contract day rate: £350 - £500 (Inside IR35)
 - Suitable roles: Product Manager, UX Designer, Service Designer, Digital Support Lead, Training Lead
 
 **Private Sector Roles:**
 - 🎯 **Mid to Senior Professional** (Individual Contributor to Team Lead)
-- Permanent salary range: £50,000 - £80,000
-- Contract day rate: £450 - £700
+- Permanent salary range: £50,000 - £70,000
+- Contract day rate: £450 - £600
 - Suitable roles: Product Owner, UX Lead, Digital Consultant, EdTech Specialist, Accessibility Lead
 
 **Best Fit Industries (Based on Experience):**
