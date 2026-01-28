@@ -1,0 +1,48 @@
+{
+  "source_file": "Andrea Enning Updated CV (IT Support).docx",
+  "extracted_date": "2026-01-28",
+  
+  "fonts": {
+    "body": "Arial",
+    "heading": "Arial",
+    "heading_weight": "Bold"
+  },
+  
+  "colors": {
+    "primary": "#025940",
+    "body_text": "#404040",
+    "accent1": "#156082",
+    "accent2": "#E97132",
+    "accent3": "#196B24",
+    "hyperlink": "#467886",
+    "dark": "#000000",
+    "light": "#FFFFFF"
+  },
+  
+  "typography": {
+    "body_size": "12pt",
+    "heading1_size": "14pt",
+    "line_spacing": "1.15"
+  },
+  
+  "layout": {
+    "margins": {
+      "left": "1.5cm",
+      "right": "1.5cm",
+      "top": "1.5cm",
+      "bottom": "1.5cm"
+    },
+    "columns": 1
+  },
+  
+  "heading_style": {
+    "heading1": {
+      "font": "Arial",
+      "weight": "Bold",
+      "size": "14pt",
+      "color": "#025940",
+      "underline": true,
+      "underline_color": "#025940"
+    }
+  }
+}

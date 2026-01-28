@@ -1,0 +1,131 @@
+% !TEX program = xelatex
+% CV Template for Andrea Enning - Generated from DOCX tokens
+% Brand-identical LaTeX template for Overleaf
+
+\documentclass[11pt,a4paper]{article}
+
+% -------------------------------
+% Packages
+% -------------------------------
+\usepackage{fontspec}           % for exact fonts (XeLaTeX)
+\usepackage{xcolor}             % for brand colours
+\usepackage[
+  top=1.5cm,
+  bottom=1.5cm,
+  left=1.5cm,
+  right=1.5cm
+]{geometry}                     % margins from token
+\usepackage{titlesec}           % heading formatting
+\usepackage{enumitem}           % list control
+\usepackage{hyperref}           % links
+\usepackage{ulem}               % for underline
+\usepackage{parskip}            % paragraph spacing
+
+% -------------------------------
+% Brand Tokens (from cv_tokens.json)
+% -------------------------------
+
+% Fonts
+\setmainfont{Arial}
+
+% Colours (exact from Word)
+\definecolor{primary}{HTML}{025940}      % Dark green - headings
+\definecolor{bodytext}{HTML}{404040}     % Grey - body text
+\definecolor{accent1}{HTML}{156082}      % Blue accent
+\definecolor{accent2}{HTML}{E97132}      % Orange accent
+\definecolor{accent3}{HTML}{196B24}      % Green accent
+\definecolor{linkcolor}{HTML}{467886}    % Hyperlink blue
+
+% -------------------------------
+% Heading Styles (matching Word)
+% -------------------------------
+\titleformat{\section}
+  {\normalfont\fontsize{14pt}{16pt}\selectfont\bfseries\color{primary}}
+  {}
+  {0em}
+  {\uline}
+
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% Body text color
+\color{bodytext}
+
+% Hyperlink styling
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkcolor,
+  urlcolor=linkcolor
+}
+
+% -------------------------------
+% Helper Macros for CV Entries
+% -------------------------------
+
+% CV Entry: Role | Organization | Dates
+\newcommand{\cventry}[4]{%
+  \textbf{#1} \hfill {\color{accent1}#2}\\
+  \textit{#3}\\
+  #4\par\vspace{0.5em}%
+}
+
+% Skill item
+\newcommand{\cvskill}[2]{%
+  \textbf{#1:} #2\\
+}
+
+% Contact info line
+\newcommand{\cvcontact}[1]{%
+  #1\\
+}
+
+% -------------------------------
+% Document Content
+% -------------------------------
+\begin{document}
+
+\pagestyle{empty}
+
+% === HEADER ===
+\begin{center}
+  {\fontsize{24pt}{28pt}\selectfont\bfseries\color{primary} Andrea Enning}\\[0.5em]
+  {\large IT Support Professional}\\[0.3em]
+  \cvcontact{Email: your.email@example.com | Phone: +44 XXX XXX XXXX}
+  \cvcontact{LinkedIn: linkedin.com/in/andreaenning | Location: UK}
+\end{center}
+
+\vspace{1em}
+
+% === PROFESSIONAL SUMMARY ===
+\section{Professional Summary}
+% Copilot: Fill in professional summary from DOCX content
+
+% === EXPERIENCE ===
+\section{Experience}
+
+\cventry{Job Title}{Company Name}{Dates}{%
+  \begin{itemize}[leftmargin=*, nosep]
+    \item Responsibility or achievement 1
+    \item Responsibility or achievement 2
+    \item Responsibility or achievement 3
+  \end{itemize}
+}
+
+% === EDUCATION ===
+\section{Education}
+
+\cventry{Degree / Qualification}{Institution}{Dates}{%
+  Details or achievements
+}
+
+% === SKILLS ===
+\section{Skills}
+
+\cvskill{Technical Skills}{Skill 1, Skill 2, Skill 3}
+\cvskill{Software}{Software 1, Software 2, Software 3}
+\cvskill{Languages}{Language 1, Language 2}
+
+% === CERTIFICATIONS ===
+\section{Certifications}
+% Copilot: Fill in certifications from DOCX content
+
+\end{document}

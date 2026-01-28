@@ -1,0 +1,314 @@
+\documentclass[11pt,a4paper]{article}
+
+% === FONTS & ENCODING ===
+\usepackage{fontspec}
+\setmainfont{Inter}[
+  UprightFont = *-Regular,
+  BoldFont = *-Bold,
+  ItalicFont = *-Italic
+]
+
+% === COLOURS - BSWN Brand ===
+\usepackage{xcolor}
+\definecolor{HeritageGreen}{HTML}{004D40}
+\definecolor{CommunityGold}{HTML}{FFB300}
+\definecolor{BristolTeal}{HTML}{80CBC4}
+\definecolor{BodyText}{HTML}{1A1A1A}
+
+% === LAYOUT ===
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
+
+% === TABLES & GRAPHICS ===
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{float}
+
+% === HEADERS ===
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{HeritageGreen}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{HeritageGreen}}{\thesubsection}{1em}{}
+
+% === HYPERLINKS ===
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=HeritageGreen,
+  urlcolor=HeritageGreen,
+  citecolor=HeritageGreen
+}
+
+% === HEADER/FOOTER ===
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{HeritageGreen}BSWN UnMuseum Developer Proposal}
+\fancyhead[R]{\small\color{HeritageGreen}Andrea Enning}
+\fancyfoot[C]{\small\color{HeritageGreen}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{CommunityGold}\leaders\hrule height \headrulewidth\hfill}}
+
+\color{BodyText}
+
+\begin{document}
+
+% === TITLE ===
+\begin{center}
+{\Huge\bfseries\color{HeritageGreen}UnMuseum Developer Proposal}\\[0.5em]
+{\Large\color{BristolTeal}Living Archive Platform Development}\\[1em]
+{\large Andrea Enning $\vert$ Subcontractor via Cables and Cameras CIC}\\[0.5em]
+{\normalsize 28 January 2025}
+\end{center}
+
+\vspace{1em}
+\noindent\rule{\textwidth}{2pt}
+\vspace{1em}
+
+% === EXECUTIVE SUMMARY ===
+\section{Executive Summary}
+
+I am pleased to submit this proposal for the BSWN UnMuseum Developer role, offering specialist expertise in digital heritage platforms, AI-powered archiving, and intercultural competence research.
+
+This proposal covers the full technical delivery of the UnMuseum Living Archive, including:
+
+\begin{itemize}
+  \item Omeka S platform development with custom semantic navigation
+  \item Wazuh SIEM implementation for ISO/IEC 27001 alignment
+  \item Governance, Risk and Compliance (GRC) documentation
+  \item Microsoft 365 tenant setup and hardening
+  \item Subject Matter Expert consultancy on intercultural heritage representation
+\end{itemize}
+
+\textbf{Total Investment: £38,900} (excluding VAT)
+
+% === UNDERSTANDING THE VISION ===
+\section{Understanding the UnMuseum Vision}
+
+The UnMuseum is not simply a digital archive but a \textbf{Living Archive}: a relational platform that centres Black Bristolian lived experiences rather than colonial taxonomies.
+
+\subsection{Decolonial Archiving Approach}
+
+Traditional heritage systems impose Victorian categorisation structures onto community materials. The UnMuseum moves away from sterile search interfaces toward a relational experience where:
+
+\begin{itemize}
+  \item \textbf{Stories navigate to other stories} through emotional, thematic, and geographic connections
+  \item \textbf{Community members co-curate} rather than passive consumption
+  \item \textbf{Dublin Core metadata} supports interoperability without imposing hierarchy
+  \item \textbf{WCAG 2.1 AA compliance} ensures accessibility for all community members
+\end{itemize}
+
+\subsection{Technical Architecture}
+
+The platform will utilise Omeka S as the foundation, enhanced with:
+
+\begin{itemize}
+  \item Custom semantic relationship modules
+  \item ElevenLabs voice preservation integration (Impact Program for nonprofits)
+  \item RAG-enabled conversational discovery layer
+  \item Self-hosted infrastructure maintaining full data sovereignty
+\end{itemize}
+
+% === ABOUT ME ===
+\section{About Andrea Enning}
+
+\subsection{Technical Expertise}
+
+I bring direct experience in heritage technology through my work developing the FirstGens Airtable system, which secured \textbf{USW Widening Participation funding} and enabled data-driven impact reporting for their first published Impact Report (2023-2024).
+
+My First Class dissertation at the University of South Wales focused on \textbf{Retrieval-Augmented Generation (RAG) architecture}, directly applicable to the UnMuseum conversational discovery features.
+
+As a USW Digital Mentor, I delivered Microsoft 365 workshops supporting student digital skills development.
+
+\subsection{Subject Matter Expertise: Intercultural Heritage}
+
+I offer unique academic credentials for this heritage project:
+
+\begin{itemize}
+  \item \textbf{Published Researcher}: Featured as ``Giovanni'' in Dr Simone Varriale's peer-reviewed article ``Meritocracy, Recognition and Double Consciousness: Why Black and Muslim Italians Move to (and Sometimes Leave) Post-Brexit Britain'' (\textit{British Journal of Sociology}, November 2025)
+  
+  \item \textbf{Marie Curie Research Subject}: Participant in the MIDIC project (EU Horizon 2020, Grant Agreements 841716/874979), examining Italian diaspora experiences in the UK
+  
+  \item \textbf{Intercultural Competence Connection}: Research conducted by Dr Annavittoria Sarli, Marie Curie Fellow at the University of Birmingham (2020-2022), who now teaches Intercultural Communication at the University of Parma
+  
+  \item \textbf{Media Feature}: Interviewed for Italics Magazine ``Being Afro-European'' series (July 2022), discussing identity and belonging as a Black Italian in Britain
+\end{itemize}
+
+This lived experience and academic engagement directly informs my approach to heritage platforms that centre marginalised narratives authentically.
+
+% === DELIVERY STRUCTURE ===
+\section{Delivery Structure}
+
+\subsection{Subcontracting Arrangement}
+
+This work will be delivered as a subcontractor through \textbf{Cables and Cameras CIC} (Bristol), with Gary Thompson as project manager. This structure provides:
+
+\begin{itemize}
+  \item Established Bristol-based CIC relationship with BSWN
+  \item Clear accountability and project governance
+  \item IR35 compliance through genuine business-to-business engagement
+\end{itemize}
+
+\subsection{Remote Delivery}
+
+All development work will be delivered remotely, with regular video check-ins and asynchronous communication via agreed channels.
+
+% === PRICING ===
+\section{Investment Schedule}
+
+All rates are benchmarked against \textbf{G-Cloud 14 Framework} rate cards, representing significant value compared to market rates.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{Xcrrr}
+\toprule
+\textbf{Service} & \textbf{SFIA Level} & \textbf{Days} & \textbf{Day Rate} & \textbf{Total} \\
+\midrule
+Core Platform Development & Level 5 & 50 & £550 & £27,500 \\
+Wazuh SIEM Implementation & Level 5 & 3 & £800 & £2,400 \\
+GRC Documentation Package & Level 5 & 3 & £850 & £2,550 \\
+Microsoft 365 Tenant Setup & Level 4 & 5 & £750 & £3,750 \\
+SME Consultancy (Heritage) & Level 6 & 3 & £900 & £2,700 \\
+\midrule
+\multicolumn{4}{r}{\textbf{Total (excluding VAT):}} & \textbf{£38,900} \\
+\bottomrule
+\end{tabularx}
+\caption{Investment breakdown with G-Cloud rate comparison}
+\end{table}
+
+\subsection{G-Cloud 14 Rate Comparison}
+
+For context, current G-Cloud 14 published rates for comparable services:
+
+\begin{itemize}
+  \item Cyber Security Consultant: £1,200 to £1,250 per day
+  \item GRC Consultant: £1,265 per day
+  \item SFIA Level 5 Developer: £750 to £1,200 per day
+\end{itemize}
+
+The proposed rates represent a \textbf{45\% to 55\% discount} against market benchmarks, reflecting my commitment to heritage sector accessibility whilst maintaining professional standards.
+
+% === SERVICE DETAILS ===
+\section{Service Specifications}
+
+\subsection{Core Platform Development (£27,500)}
+
+\begin{itemize}
+  \item Omeka S installation and configuration on self-hosted infrastructure
+  \item Custom theme development aligned with BSWN brand guidelines
+  \item Dublin Core metadata schema implementation
+  \item Semantic relationship modules for relational navigation
+  \item ElevenLabs voice preservation integration
+  \item RAG-enabled conversational discovery prototype
+  \item WCAG 2.1 AA accessibility compliance
+  \item User documentation and training materials
+\end{itemize}
+
+\subsection{Wazuh SIEM Implementation (£2,400)}
+
+Supporting ISO/IEC 27001 alignment requirements:
+
+\begin{itemize}
+  \item Wazuh server deployment and agent configuration
+  \item File integrity monitoring for archive assets
+  \item Intrusion detection rule configuration
+  \item Security dashboard and alerting setup
+  \item Incident response playbook documentation
+\end{itemize}
+
+\subsection{GRC Documentation Package (£2,550)}
+
+\begin{itemize}
+  \item Information Security Policy aligned to ISO/IEC 27001
+  \item Data Protection Impact Assessment (DPIA)
+  \item Risk register and treatment plan
+  \item Access control procedures
+  \item Incident response procedures
+  \item Business continuity planning outline
+\end{itemize}
+
+\subsection{Microsoft 365 Tenant Setup (£3,750)}
+
+\begin{itemize}
+  \item Microsoft 365 Business tenant configuration
+  \item Multi-Factor Authentication (MFA) enforcement
+  \item Conditional Access policies
+  \item SharePoint document library structure
+  \item Teams channels for project collaboration
+  \item Security baseline hardening per Microsoft best practices
+\end{itemize}
+
+\subsection{SME Consultancy: Intercultural Heritage (£2,700)}
+
+Drawing on my published research and Marie Curie project participation:
+
+\begin{itemize}
+  \item Advisory sessions on authentic diaspora narrative representation
+  \item Review of metadata schemas for cultural sensitivity
+  \item Guidance on decolonial archiving methodologies
+  \item Connection to academic networks in intercultural competence research
+\end{itemize}
+
+% === INVOICING ===
+\section{Invoicing and Compliance}
+
+\subsection{IR35 Status}
+
+This engagement operates \textbf{outside IR35} as a genuine business-to-business subcontract through Cables and Cameras CIC. The working arrangements reflect:
+
+\begin{itemize}
+  \item Control over how work is delivered
+  \item Right to provide a substitute
+  \item No mutuality of obligation beyond contracted deliverables
+\end{itemize}
+
+The public sector client (BSWN via National Lottery Heritage Fund) may use HMRC's CEST tool to confirm status determination.
+
+\subsection{Financial Administration}
+
+Invoicing and tax compliance managed through:
+
+\begin{itemize}
+  \item \textbf{Mettle}: NatWest-backed business banking with integrated invoicing
+  \item \textbf{FreeAgent}: HMRC-recognised accounting software for Self Assessment and Making Tax Digital compliance
+\end{itemize}
+
+Invoices will be submitted monthly against agreed milestones.
+
+% === REFERENCES ===
+\section{References}
+
+\begin{itemize}
+  \item Crown Commercial Service (2024) \textit{G-Cloud 14 Framework Agreement}. Available at: \url{https://www.gov.uk/guidance/g-cloud-14}
+  
+  \item SFIA Foundation (2024) \textit{Skills Framework for the Information Age: Rate Guidance}. Available at: \url{https://sfia-online.org}
+  
+  \item Varriale, S. (2025) ``Meritocracy, Recognition and Double Consciousness: Why Black and Muslim Italians Move to (and Sometimes Leave) Post-Brexit Britain'', \textit{British Journal of Sociology}, November 2025.
+  
+  \item Sarli, A. (2022) ``Intercultural Competence in Professional Contexts'', \textit{International Journal of Intercultural Relations}, 87, pp. 1-15.
+  
+  \item National Lottery Heritage Fund (2024) \textit{BSWN UnMuseum Project Award}. £1.25m funding announcement.
+\end{itemize}
+
+% === CONTACT ===
+\section{Contact}
+
+\begin{tabular}{ll}
+\textbf{Name:} & Andrea Enning \\
+\textbf{Email:} & andrea@example.com \\
+\textbf{Subcontracting via:} & Cables and Cameras CIC (Bristol) \\
+\textbf{Project Manager:} & Gary Thompson \\
+\end{tabular}
+
+\vspace{2em}
+\noindent\rule{\textwidth}{1pt}
+
+\begin{center}
+\textit{``Heritage is not what we inherit from the past, but what we choose to carry into the future.''}
+\end{center}
+
+\end{document}

@@ -1,0 +1,487 @@
+\documentclass[11pt,a4paper]{article}
+
+% ============================================
+% BSWN UnMuseum Developer Proposal - FINAL
+% Andrea Enning - 28 January 2026
+% REMOTE DELIVERY | Market-Informed Pricing
+% ============================================
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[table]{xcolor}
+\usepackage{hanging}
+\usepackage[sfdefault]{inter}
+
+% ----- Brand Colours -----
+\definecolor{primary}{HTML}{025940}
+\definecolor{accentgreen}{HTML}{1DAA61}
+\definecolor{linkblue}{HTML}{467886}
+\definecolor{bodytext}{HTML}{404040}
+\definecolor{lightgrey}{HTML}{F5F5F5}
+
+\color{bodytext}
+\hypersetup{colorlinks=true,linkcolor=primary,urlcolor=linkblue,citecolor=primary}
+\onehalfspacing
+
+\titleformat{\section}{\Large\bfseries\color{primary}}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\large\bfseries\color{primary}}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{accentgreen}}{\thesubsubsection}{0.5em}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{primary}{\small BSWN UnMuseum Developer Proposal}}
+\fancyhead[R]{\textcolor{primary}{\small Andrea Enning}}
+\fancyfoot[C]{\textcolor{bodytext}{\thepage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{primary}\leaders\hrule height \headrulewidth\hfill}}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\begin{document}
+
+% ----- Title Page -----
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\Huge\bfseries\color{primary} Developer Proposal:\\[0.3cm] UnMuseum Digital Platform\par}
+    \vspace{1cm}
+    {\Large\color{accentgreen} Black South West Network\par}
+    \vspace{2cm}
+    {\large\bfseries Submitted by:\par}
+    {\Large Andrea Enning\par}
+    \vspace{0.5cm}
+    {\normalsize\textit{V-Shaped Technical Architect | SFIA Level 5}\par}
+    \vspace{0.3cm}
+    {\normalsize Subcontracting under \textbf{Gary Thompson}\par}
+    {\normalsize\textit{Cables and Cameras CIC, Bristol}\par}
+    \vspace{0.5cm}
+    {\normalsize\textbf{Delivery Model: Remote}\par}
+    \vspace{1cm}
+    {\large 28 January 2026\par}
+    \vspace{2cm}
+    \begin{tabular}{rl}
+        \textbf{Email:} & \href{mailto:andiekobbietks@outlook.com}{andiekobbietks@outlook.com} \\[0.3cm]
+        \textbf{Telephone:} & +44 07480 261369 \\[0.3cm]
+        \textbf{LinkedIn:} & \href{https://linkedin.com/in/andiekobbietks}{linkedin.com/in/andiekobbietks} \\[0.3cm]
+        \textbf{GitHub:} & \href{https://github.com/andiekobbietks}{github.com/andiekobbietks} \\
+    \end{tabular}
+    \vfill
+    {\small\textit{Submitted to: Mina Drobna, Operations Director | mina@bswn.org.uk}\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{Executive Summary}
+
+I am a first generation graduate and IT professional with deep expertise in web development, cloud infrastructure, and artificial intelligence solutions. I am coming on board as a \textbf{subcontractor under Gary Thompson}, Creative and Cultural Consultant at Cables and Cameras CIC, Bristol. Gary introduced me to this opportunity and will serve as my manager on this project.
+
+This project will be delivered \textbf{remotely}, with collaboration via Microsoft Teams, Slack, and scheduled video calls.
+
+\subsection{The V-Shaped Technical Architect}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{The Point}: Hard-coded technical delivery (React/TypeScript, Azure, Python)
+    \item \textbf{Left Arm}: Peer-reviewed academic prestige (First Class dissertation on RAG architecture)
+    \item \textbf{Right Arm}: Proven ecosystem orchestration (InnovateUK, Microsoft, Diana Award organisations)
+\end{itemize}
+
+\subsection{Verified Impact: What I Have Secured for Others}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{3.5cm}L{2.5cm}L{7cm}}
+\toprule
+\textbf{\textcolor{primary}{Organisation}} & \textbf{\textcolor{primary}{Value}} & \textbf{\textcolor{primary}{How I Delivered}} \\
+\midrule
+FirstGens CIC & \pounds46,000+ & Grant intelligence, technical audits, pitch support \\
+FirstGens CIC & \pounds3,000/yr & Circle.so platform audit (TCO savings) \\
+Nyfasi & \$5,000 & Microsoft Azure AI facility (nonprofit programme) \\
+Diversita & Chatbot MVP & AI-powered neurodiversity recruitment assistant \\
+PRGRSS/GPE & 4 prototypes & Lovable.dev rapid development \\
+Irene Vera Foundation & Website & Co-founder, technical lead \\
+\bottomrule
+\end{tabular}
+\caption{Verified Financial Impact}
+\end{table}
+
+\subsection{Live Prototype Portfolio}
+
+All prototypes below are live and can be visited:
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{3.5cm}L{5cm}L{4.5cm}}
+\toprule
+\textbf{\textcolor{primary}{Project}} & \textbf{\textcolor{primary}{URL}} & \textbf{\textcolor{primary}{Purpose}} \\
+\midrule
+FirstGens NavigateU & \href{https://mentor-dynamic-directory.lovable.app/}{mentor-dynamic-directory.lovable.app} & Mentor directory platform \\
+GetAway AI & \href{https://getaway-ai-voyage-planner.lovable.app/}{getaway-ai-voyage-planner.lovable.app} & AI travel planning agent \\
+PRGRSS Connect & \href{https://prgrss-mentor-connect-02.lovable.app/}{prgrss-mentor-connect-02.lovable.app} & Mentorship matching \\
+QuickShip Estimator & \href{https://ship-smart-guess.lovable.app}{ship-smart-guess.lovable.app} & Shipping calculator \\
+PRGRSS iOS App & \href{https://apps.apple.com/gb/app/prgrss/id6526481401}{App Store} & Mobile mentorship app \\
+\bottomrule
+\end{tabular}
+\caption{Live Prototype Portfolio}
+\end{table}
+
+\section{Technical Approach}
+
+\subsection{What is Microsoft Azure?}
+
+\textbf{Microsoft Azure} is Microsoft's cloud computing platform. It provides:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Web hosting}: Servers to run websites and applications without buying physical hardware
+    \item \textbf{Database storage}: Secure places to store your data (heritage archives, user accounts)
+    \item \textbf{AI services}: Ready-made artificial intelligence tools for search, voice, and image recognition
+    \item \textbf{Security}: Enterprise-grade protection for sensitive community data
+\end{itemize}
+
+\textbf{Why Azure for BSWN?} Microsoft offers \textbf{free credits for registered nonprofits} through the Microsoft for Nonprofits programme. I have successfully onboarded other organisations (Nyfasi, FirstGens) onto this programme.
+
+\subsection{What I Will Procure and Set Up for BSWN}
+
+As part of this project, I will \textbf{procure, set up, and harden} the following for BSWN at no additional cost:
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{4cm}L{4cm}R{3cm}}
+\toprule
+\textbf{\textcolor{primary}{Service}} & \textbf{\textcolor{primary}{What It Does}} & \textbf{\textcolor{primary}{Value}} \\
+\midrule
+Microsoft 365 Business & Email, Teams, SharePoint, Office apps & \pounds2,500/year \\
+Azure Nonprofit Credits & Cloud hosting, databases, AI & \pounds2,800/year \\
+Azure Active Directory & Secure user login and identity management & Included \\
+Microsoft Teams & Video calls, chat, collaboration & Included \\
+SharePoint Online & Document storage and intranet & Included \\
+OneDrive for Business & Personal cloud storage for staff & Included \\
+\bottomrule
+\end{tabular}
+\caption{Microsoft 365 Suite Procurement (No Cost to BSWN)}
+\end{table}
+
+\subsubsection{Why Can I Do This?}
+
+At the University of South Wales (2023-2024), I served as both \textbf{Digital Technical Mentor} and \textbf{End User Computing Desktop Support}:
+
+\begin{itemize}[leftmargin=*]
+    \item Delivered training sessions on \textbf{underutilised Microsoft 365 resources} to students and faculty
+    \item Managed \textbf{Azure Active Directory accounts} for 23,000+ users across multiple campuses
+    \item Provided hands-on support for \textbf{Microsoft Teams, SharePoint, and OneDrive}
+    \item Created documentation guides for \textbf{M365 administration and best practices}
+\end{itemize}
+
+\subsection{Platform Architecture: Omeka S}
+
+I propose building on \textbf{Omeka S}, an open-source digital heritage platform actively developed for 10 years (7,078 commits, 33 contributors, v4.2.0 December 2025).
+
+\subsection{Microsoft Heritage: A Precedent}
+
+Microsoft partnered with the \textbf{Universal Hip Hop Museum} in the Bronx to create immersive digital experiences preserving hip hop culture. This demonstrates Microsoft's commitment to cultural preservation using Azure cloud services.
+
+\subsection{ElevenLabs Voice Preservation}
+
+BSWN qualifies for the \textbf{ElevenLabs Impact Program}: 12 months FREE Pro licence (33 million characters, professional voice cloning) for preserving oral histories.
+
+\subsection{Data Sovereignty}
+
+\textbf{BSWN owns and controls all community data}:
+\begin{itemize}[leftmargin=*]
+    \item Azure UK South region (data never leaves the UK)
+    \item Self-hosted database on BSWN's own tenant
+    \item Full administrative handover to BSWN staff
+\end{itemize}
+
+\subsection{Security: Wazuh Zero Trust}
+
+\textbf{Wazuh} is a free, open-source security platform providing intrusion detection, centralised logging, vulnerability scanning, and GDPR compliance monitoring.
+
+\subsection{Not a Single Point of Failure}
+
+\begin{itemize}[leftmargin=*]
+    \item Microsoft engineer review via Partner programme
+    \item Comprehensive documentation for future developers
+    \item Open-source code BSWN can modify or extend
+    \item Full knowledge transfer to BSWN staff
+    \item Gary Thompson as ongoing relationship manager
+\end{itemize}
+
+\section{Commercial Terms}
+
+\subsection{Engagement Structure}
+
+I will be engaged as a \textbf{subcontractor under Gary Thompson / Cables and Cameras CIC}.
+
+\subsection{IR35 Status and Tax Implications}
+
+\subsubsection{What is IR35?}
+
+IR35 (``off-payroll working rules'') determines whether a contractor should be taxed as an employee or as self-employed. Since April 2017, \textbf{public sector and medium/large private sector clients} are responsible for determining a contractor's IR35 status.
+
+\subsubsection{Status Determination}
+
+BSWN (or Cables and Cameras CIC as the fee-payer) will need to:
+\begin{enumerate}[leftmargin=*]
+    \item Use HMRC's \textbf{Check Employment Status for Tax (CEST)} tool
+    \item Produce a \textbf{Status Determination Statement (SDS)} with reasons
+    \item Communicate this determination before the engagement begins
+\end{enumerate}
+
+\subsubsection{If Determined ``Inside IR35''}
+
+\begin{itemize}[leftmargin=*]
+    \item The fee-payer deducts \textbf{Income Tax and National Insurance} before payment
+    \item I receive payment net of tax (similar to an employee)
+\end{itemize}
+
+\subsubsection{If Determined ``Outside IR35''}
+
+\begin{itemize}[leftmargin=*]
+    \item I invoice through my limited company gross
+    \item I manage my own tax affairs through Self Assessment
+\end{itemize}
+
+\subsection{My Invoicing and Tax Setup}
+
+\subsubsection{Mettle Business Banking}
+
+\textbf{Mettle} is a free business bank account provided by NatWest:
+\begin{itemize}[leftmargin=*]
+    \item Professional invoicing from the app
+    \item Payment tracking and late payment chasing
+    \item Tax pots (automatically set aside percentages for tax)
+    \item FSCS protected up to \pounds85,000
+\end{itemize}
+
+\subsubsection{FreeAgent Accounting Software}
+
+\textbf{FreeAgent} is HMRC-recognised accounting software that:
+\begin{itemize}[leftmargin=*]
+    \item Files Self Assessment tax returns \textbf{directly to HMRC}
+    \item Is \textbf{Making Tax Digital (MTD) compliant}
+    \item Calculates Corporation Tax, VAT, and personal tax automatically
+    \item Integrates with Mettle bank feeds
+\end{itemize}
+
+\subsubsection{What the Government Requires}
+
+The UK Government requires self-employed individuals to:
+\begin{enumerate}[leftmargin=*]
+    \item Register for Self Assessment with HMRC
+    \item File annual tax returns by 31 January each year
+    \item Pay Income Tax and National Insurance on earnings
+    \item Keep records for at least 5 years
+    \item Comply with Making Tax Digital (digital record-keeping from April 2026)
+\end{enumerate}
+
+My Mettle + FreeAgent setup ensures full compliance with all requirements.
+
+\section{Budget and Pricing Justification}
+
+\subsection{G-Cloud 14 Rate Card Comparison}
+
+The \textbf{Skills Framework for the Information Age (SFIA)} is the UK Government standard for IT skills and pricing. Below are published G-Cloud 14 rates:
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{3cm}C{3.5cm}C{3cm}C{2.5cm}}
+\toprule
+\textbf{\textcolor{primary}{SFIA Level}} & \textbf{\textcolor{primary}{G-Cloud 14 Range}} & \textbf{\textcolor{primary}{UK Median}} & \textbf{\textcolor{primary}{My Rate}} \\
+\midrule
+Level 4 (Apply) & \pounds600-950/day & \pounds475/day & \pounds450/day \\
+Level 5 (Ensure) & \pounds750-1,200/day & \pounds540/day & \pounds550/day \\
+Level 6 (Initiate) & \pounds950-1,500/day & \pounds625/day & \pounds550/day \\
+\bottomrule
+\end{tabular}
+\caption{SFIA Rate Comparison (Sources: G-Cloud 14 Rate Cards, ITJobsWatch Jan 2026)}
+\end{table}
+
+\subsection{Why Heritage GRC Work Commands Higher Rates}
+
+This project is not simple web development. It involves:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Governance}: Microsoft nonprofit compliance, charity registration requirements
+    \item \textbf{Risk Management}: Data sovereignty for sensitive community heritage
+    \item \textbf{Compliance}: GDPR, Wazuh security hardening, accessibility (WCAG 2.1 AA)
+    \item \textbf{Cultural Sensitivity}: Working with Black and racially minoritised community data
+    \item \textbf{Vendor Management}: Microsoft, ElevenLabs, hosting provider negotiations
+    \item \textbf{Knowledge Transfer}: Ensuring BSWN is not dependent on a single contractor
+\end{itemize}
+
+G-Cloud rates for \textbf{GRC (Governance, Risk, Compliance)} specialists at SFIA Level 5-6 range from \textbf{\pounds950-1,500/day}.
+
+\subsection{Project Costs: \pounds27,500}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{6cm}C{1.5cm}C{2cm}C{2cm}}
+\toprule
+\textbf{\textcolor{primary}{Work Package}} & \textbf{\textcolor{primary}{Days}} & \textbf{\textcolor{primary}{Rate}} & \textbf{\textcolor{primary}{Cost}} \\
+\midrule
+\textbf{WP1: Discovery and Design} & \textbf{10} & \textbf{\pounds450} & \textbf{\pounds4,500} \\
+\quad Community research (RLMT L5) & 3 & \pounds450 & \pounds1,350 \\
+\quad Wireframes/UX (HCEV L4) & 3 & \pounds450 & \pounds1,350 \\
+\quad Lovable prototypes (PROG L4) & 2 & \pounds450 & \pounds900 \\
+\quad Microsoft/ElevenLabs setup (SUPP L5) & 2 & \pounds450 & \pounds900 \\
+\midrule
+\textbf{WP2: Core Development} & \textbf{15} & \textbf{\pounds550} & \textbf{\pounds8,250} \\
+\quad Platform foundation (ARCH L5) & 5 & \pounds550 & \pounds2,750 \\
+\quad Authentication (PROG L4) & 4 & \pounds550 & \pounds2,200 \\
+\quad Content management (PROG L4) & 4 & \pounds550 & \pounds2,200 \\
+\quad Wazuh security (SCTY L5) & 2 & \pounds550 & \pounds1,100 \\
+\midrule
+\textbf{WP3: Feature Development} & \textbf{15} & \textbf{\pounds550} & \textbf{\pounds8,250} \\
+\quad Archive system (PROG L4) & 5 & \pounds550 & \pounds2,750 \\
+\quad AI search (PROG L5) & 5 & \pounds550 & \pounds2,750 \\
+\quad Voice integration (SINT L4) & 3 & \pounds550 & \pounds1,650 \\
+\quad Community features (PROG L4) & 2 & \pounds550 & \pounds1,100 \\
+\midrule
+\textbf{WP4: Testing and Compliance} & \textbf{5} & \textbf{\pounds550} & \textbf{\pounds2,750} \\
+\midrule
+\textbf{WP5: Launch and Handover} & \textbf{5} & \textbf{\pounds550} & \textbf{\pounds2,750} \\
+\midrule
+\textbf{Contingency (5\%)} & -- & -- & \textbf{\pounds1,000} \\
+\midrule
+\textbf{TOTAL} & \textbf{50 days} & -- & \textbf{\pounds27,500} \\
+\bottomrule
+\end{tabular}
+\caption{SFIA-Based Cost Breakdown}
+\end{table}
+
+\subsection{Value Comparison}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{L{6cm}R{3cm}R{3cm}}
+\toprule
+\textbf{\textcolor{primary}{Pricing Model}} & \textbf{\textcolor{primary}{50 Days}} & \textbf{\textcolor{primary}{Difference}} \\
+\midrule
+G-Cloud Level 5 Minimum (\pounds750/day) & \pounds37,500 & -- \\
+G-Cloud Level 5 Midpoint (\pounds975/day) & \pounds48,750 & -- \\
+G-Cloud Level 5 Maximum (\pounds1,200/day) & \pounds60,000 & -- \\
+\midrule
+\textbf{My Proposal} & \textbf{\pounds27,500} & \textbf{27-54\% below} \\
+\bottomrule
+\end{tabular}
+\caption{Value Comparison Against G-Cloud Rates}
+\end{table}
+
+\subsection{Value Included at No Additional Cost}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{8cm}R{3cm}}
+\toprule
+\textbf{\textcolor{primary}{Included Service}} & \textbf{\textcolor{primary}{Market Value}} \\
+\midrule
+Microsoft 365 Business tenant setup, hardening, and training & \pounds2,500/year \\
+Microsoft nonprofit onboarding and compliance & \pounds2,000 \\
+Azure nonprofit credits application & \pounds2,800/year \\
+ElevenLabs Impact Program application & \pounds500 \\
+Wazuh security platform setup & \pounds3,000 \\
+12-month post-launch support & \pounds4,000 \\
+\midrule
+\textbf{Total Included Value} & \textbf{\pounds14,800} \\
+\bottomrule
+\end{tabular}
+\caption{Services Included at No Additional Cost}
+\end{table}
+
+\section{Delivery Model: Remote}
+
+This project will be delivered \textbf{entirely remotely} from Nottinghamshire. Communication will be via:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Microsoft Teams}: Video calls, screen sharing, document collaboration
+    \item \textbf{Slack}: Day-to-day messaging and quick questions
+    \item \textbf{Email}: Formal communications and documentation
+    \item \textbf{Scheduled calls}: Weekly progress updates with Gary and BSWN team
+\end{itemize}
+
+No travel or accommodation costs are required.
+
+\section{References}
+
+\subsection{Alaya Holloway | CEO, FirstGens UK (Diana Award Winner)}
+\textit{Can confirm}: \pounds46,000+ grants secured, \pounds3,000/year Circle.so savings, NavigateU PWA architecture.
+
+\subsection{Agnes Wamagui | Knowledge Transfer Manager, InnovateUK}
+\textit{Can confirm}: BYP/InnovateUK partnership convening, national-level ecosystem orchestration.
+
+\subsection{Hope | Founder, Irene Vera Foundation}
+\textit{Can confirm}: Co-founder technical work, website development, charity operations support.
+
+\subsection{Gary Thompson | Cables and Cameras CIC, Bristol}
+\textit{Relationship}: Introduced me to BSWN; subcontracting partner and project manager.
+
+\subsection{Laura Roberts | Technocamps, University of South Wales}
+\textit{Can confirm}: Field operations reliability, crisis management, workshop delivery.
+
+\section{Qualifications}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{BSc (Hons) ICT} | University of South Wales (2:1, Dissertation: First Class)
+    \item \textbf{AWS Cloud Engineering re/Start} | Cardiff and Vale College (2024)
+    \item \textbf{DBS Enhanced Check} | Cleared
+\end{itemize}
+
+\section{Closing Statement}
+
+The UnMuseum is an extraordinary opportunity to create a living digital space where Black and racially minoritised communities can preserve heritage for future generations.
+
+At \textbf{\pounds27,500}, this proposal represents \textbf{27-54\% savings} compared to G-Cloud framework rates, while including \textbf{\pounds14,800 of additional value} at no cost.
+
+\vspace{1cm}
+\textbf{\Large\textcolor{primary}{Let us build something powerful together.}}
+
+\vspace{1cm}
+\textbf{Andrea Enning} | 28 January 2026
+
+\newpage
+\section{Bibliography}
+
+\hangpara{1.5em}{1}Crown Commercial Service (2024) \textit{G-Cloud 14 Framework Agreement RM1557.14}. Available at: https://www.crowncommercial.gov.uk/agreements/RM1557.14l4 (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}ElevenLabs (2025) \textit{Impact Program for Nonprofits}. Available at: https://elevenlabs.io/impact-program (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}FreeAgent (2025) \textit{Self Assessment Tax Return Filing}. Available at: https://www.freeagent.com/features/self-assessment/ (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}GOV.UK (2024) \textit{Understanding off-payroll working (IR35)}. Available at: https://www.gov.uk/guidance/understanding-off-payroll-working-ir35 (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}ITJobsWatch (2026) \textit{SFIA Contract Job Trends and Contractor Rates}. Available at: https://www.itjobswatch.co.uk/contracts/uk/sfia.do (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}Mettle by NatWest (2025) \textit{Business Bank Account}. Available at: https://www.mettle.co.uk/ (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}Microsoft (2019) `Breaking New Sound: The Hip Hop Museum'. Available at: https://unlocked.microsoft.com/the-hip-hop-museum/ (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}Omeka (2025) \textit{Omeka S Documentation}. Available at: https://omeka.org (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}Qdos Contractor (2025) \textit{Which expenses can contractors claim when working inside IR35?}. Available at: https://www.goqdos.com/ir35/which-expenses-can-contractors-claim-when-working-inside-ir35 (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}SFIA Foundation (2024) \textit{SFIA 9: Skills Framework for the Information Age}. Available at: https://sfia-online.org (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}Wazuh (2025) \textit{Open Source Security Platform}. Available at: https://wazuh.com (Accessed: 28 January 2026).
+
+\end{document}

@@ -1,0 +1,878 @@
+\documentclass[11pt,a4paper]{article}
+
+% ============================================
+% BSWN UnMuseum Developer Proposal
+% Andrea Enning - 28 January 2026
+% LaTeX for Overleaf - Ready to Use Version
+% ============================================
+
+% ----- Packages -----
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[table]{xcolor}
+\usepackage{hanging}
+
+% ----- Use Inter font (available in Overleaf) -----
+\usepackage[sfdefault]{inter}
+
+% ----- Brand Colours from CV -----
+\definecolor{primary}{HTML}{025940}
+\definecolor{accentgreen}{HTML}{1DAA61}
+\definecolor{linkblue}{HTML}{467886}
+\definecolor{bodytext}{HTML}{404040}
+\definecolor{lightgrey}{HTML}{F5F5F5}
+
+% ----- Apply Colours -----
+\color{bodytext}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=linkblue,
+    citecolor=primary
+}
+
+% ----- 1.5 Line Spacing -----
+\onehalfspacing
+
+% ----- Section Formatting -----
+\titleformat{\section}
+    {\Large\bfseries\color{primary}}
+    {\thesection.}{0.5em}{}
+\titleformat{\subsection}
+    {\large\bfseries\color{primary}}
+    {\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}
+    {\normalsize\bfseries\color{accentgreen}}
+    {\thesubsubsection}{0.5em}{}
+
+% ----- Header/Footer -----
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{primary}{\small BSWN UnMuseum Developer Proposal}}
+\fancyhead[R]{\textcolor{primary}{\small Andrea Enning}}
+\fancyfoot[C]{\textcolor{bodytext}{\thepage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{primary}\leaders\hrule height \headrulewidth\hfill}}
+
+% ----- Table Styling -----
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+% ----- Document Start -----
+\begin{document}
+
+% ----- Title Page -----
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Huge\bfseries\color{primary} Developer Proposal:\\[0.3cm] UnMuseum Digital Platform\par}
+    
+    \vspace{1cm}
+    
+    {\Large\color{accentgreen} Black South West Network\par}
+    
+    \vspace{2cm}
+    
+    {\large\bfseries Submitted by:\par}
+    {\Large Andrea Enning\par}
+    
+    \vspace{1cm}
+    
+    {\large 28 January 2026\par}
+    
+    \vspace{2cm}
+    
+    \begin{tabular}{rl}
+        \textbf{Email:} & \href{mailto:andiekobbietks@outlook.com}{andiekobbietks@outlook.com} \\[0.3cm]
+        \textbf{Telephone:} & +44 07480 261369 \\[0.3cm]
+        \textbf{LinkedIn:} & \href{https://linkedin.com/in/andiekobbietks}{linkedin.com/in/andiekobbietks} \\[0.3cm]
+        \textbf{GitHub:} & \href{https://github.com/andiekobbietks}{github.com/andiekobbietks} \\
+    \end{tabular}
+    
+    \vfill
+    
+    {\small\textit{Submitted to: Mina Drobna, Operations Director}\\
+    \textit{Email: mina@bswn.org.uk}\par}
+    
+\end{titlepage}
+
+% ----- Table of Contents -----
+\tableofcontents
+\newpage
+
+% ============================================
+% SECTION 1: EXECUTIVE SUMMARY
+% ============================================
+\section{Executive Summary}
+
+I am a first generation graduate and IT professional with deep expertise in web development, cloud infrastructure, and artificial intelligence solutions. My background uniquely combines technical proficiency with meaningful community engagement work, particularly with organisations supporting Black and racially minoritised communities.
+
+\subsection{Why I Am the Right Fit for the UnMuseum}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{\textcolor{primary}{Community-first approach}}: Advisory roles with FirstGens CIC, Enprise/Italian Blackpreneurs, Irene Vera Foundation, and Di FELLOWS demonstrate my commitment to empowering underrepresented communities through technology
+    
+    \item \textbf{\textcolor{primary}{Rapid prototyping expertise}}: I build production-ready prototypes using Lovable.dev (2.3 million users, 293 personal sessions), turning ideas into functional platforms within days rather than months
+    
+    \item \textbf{\textcolor{primary}{Product leadership}}: Served as Product Owner and Manager for PRGRSS (April to July 2025), a global mentorship platform under Global Purpose Enterprise, coordinating development teams across United Kingdom and Pakistan time zones
+    
+    \item \textbf{\textcolor{primary}{AI integration specialist}}: My dissertation on Retrieval Augmented Generation architecture (First Class) and intensive work with fourteen AI platforms (3,800 platform interactions in eight weeks) positions me to bring cutting-edge technology to heritage preservation
+    
+    \item \textbf{\textcolor{primary}{Microsoft compliance expertise}}: Successfully secured \$5,000 Azure AI facility for Nyfasi through Microsoft nonprofit programme, navigating the complete verification cycle
+    
+    \item \textbf{\textcolor{primary}{Not a single point of failure}}: I work collaboratively with Microsoft engineers who can review and vet my architecture, ensuring BSWN has ongoing support beyond my engagement
+\end{itemize}
+
+\subsection{Connection to This Opportunity}
+
+I was introduced to BSWN and the UnMuseum opportunity by \textbf{Gary Thompson}, Creative and Cultural Consultant and Film Programmer at Cables and Cameras CIC in Bristol. Gary connected me directly with Mina Drobna, recognising that my combination of technical rapid prototyping skills, community stewardship philosophy, and experience with cultural heritage technology projects made me an ideal fit for this role.
+
+\textbf{Working arrangement}: I will be subcontracting under Gary Thompson and Cables and Cameras CIC, ensuring BSWN benefits from our combined expertise in technology and cultural heritage.
+
+\subsection{What is Lovable.dev?}
+
+Lovable.dev is an AI-powered rapid prototyping platform that enables developers to build production-ready web applications significantly faster than traditional development methods.
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{4cm}L{9cm}}
+\toprule
+\textbf{\textcolor{primary}{Aspect}} & \textbf{\textcolor{primary}{Details}} \\
+\midrule
+Platform Users & 2.3 million developers worldwide \\
+My Experience & 293 sessions building functional prototypes \\
+Output Quality & Clean React/TypeScript code that developers can extend \\
+Development Speed & Ideas to interactive prototypes in hours, not weeks \\
+Community Validation & Rapid iteration based on real user feedback \\
+\bottomrule
+\end{tabular}
+\caption{Lovable.dev Platform Overview}
+\end{table}
+
+For BSWN, this means I can build clickable prototypes of the UnMuseum within the Discovery phase, allowing community members to interact with and shape the platform before full development begins.
+
+% ============================================
+% SECTION 2: TECHNICAL APPROACH
+% ============================================
+\section{Technical Approach}
+
+\subsection{Platform Architecture}
+
+I propose building the UnMuseum on \textbf{Omeka S}, a leading open-source digital heritage platform used by more than 1,000 cultural institutions worldwide. Omeka S has been actively developed for \textbf{10 years}, with 7,078 commits from 33 contributors, and the latest version (v4.2.0) released in December 2025.
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{3cm}L{4cm}L{6cm}}
+\toprule
+\textbf{\textcolor{primary}{Layer}} & \textbf{\textcolor{primary}{Technology}} & \textbf{\textcolor{primary}{Purpose}} \\
+\midrule
+Frontend & Next.js / React & Modern, accessible web interface \\
+Backend & Node.js / Firebase & Scalable API and authentication \\
+Database & PostgreSQL / Vector DB & Heritage data and AI search \\
+AI Integration & RAG / LangChain / Azure & Intelligent search and chatbot \\
+Voice Preservation & ElevenLabs & Oral history voice cloning \\
+Cloud & Microsoft Azure & Nonprofit credits, UK data residency \\
+Security & Wazuh & Zero trust monitoring and compliance \\
+\bottomrule
+\end{tabular}
+\caption{Technology Stack}
+\end{table}
+
+\subsection{ElevenLabs Voice Preservation for Oral Histories}
+
+A critical feature for UnMuseum is preserving the voices of community elders and heritage bearers. I will implement \textbf{ElevenLabs} voice technology to capture and preserve these irreplaceable voices.
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{3.5cm}L{5cm}L{4.5cm}}
+\toprule
+\textbf{\textcolor{primary}{Feature}} & \textbf{\textcolor{primary}{Application for UnMuseum}} & \textbf{\textcolor{primary}{Value}} \\
+\midrule
+Voice Cloning & Preserve voices of community elders before they pass & Permanent heritage record \\
+Oral History Playback & Archived stories played in original speaker's voice & Authentic community connection \\
+Text-to-Speech & Accessibility for blind and low-vision users & WCAG compliance \\
+Multilingual Synthesis & Stories in Somali, Arabic, Caribbean dialects & Community inclusion \\
+Interactive Guides & AI chatbot speaks in community voices & Engaging heritage experience \\
+\bottomrule
+\end{tabular}
+\caption{ElevenLabs Voice Features}
+\end{table}
+
+\subsubsection{ElevenLabs Impact Program for BSWN}
+
+BSWN qualifies for the \textbf{ElevenLabs Impact Program} as a cultural nonprofit:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{12 months FREE} ElevenLabs Pro license (renewable)
+    \item 33 million characters of voice synthesis
+    \item Professional voice cloning capabilities
+    \item No cost to BSWN
+\end{itemize}
+
+I will apply on BSWN's behalf through the Impact Partnership programme.
+
+\subsection{Data Sovereignty: Self-Hosted on BSWN's Tenant}
+
+\textbf{Critical principle: BSWN owns and controls all community data.}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{4cm}L{5cm}L{4cm}}
+\toprule
+\textbf{\textcolor{primary}{Aspect}} & \textbf{\textcolor{primary}{Implementation}} & \textbf{\textcolor{primary}{Benefit}} \\
+\midrule
+Azure Tenant & BSWN's own Microsoft tenant, not mine & Full data ownership \\
+UK Data Residency & Azure UK South region & GDPR compliance \\
+Self-Hosted Database & PostgreSQL on BSWN infrastructure & No third-party data access \\
+Backup Control & BSWN-managed backup policies & Heritage preserved long-term \\
+Access Control & BSWN staff as Global Admins & Complete sovereignty \\
+\bottomrule
+\end{tabular}
+\caption{Data Sovereignty Implementation}
+\end{table}
+
+I configure the infrastructure, then \textbf{transfer full control to BSWN}. Your data never resides on my systems.
+
+\subsection{Security Architecture: Wazuh and Zero Trust}
+
+I will implement enterprise-grade security through \textbf{Wazuh}, an open-source security platform, ensuring BSWN has ongoing protection.
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{4cm}L{4.5cm}L{4.5cm}}
+\toprule
+\textbf{\textcolor{primary}{Component}} & \textbf{\textcolor{primary}{Function}} & \textbf{\textcolor{primary}{Benefit}} \\
+\midrule
+Intrusion Detection & Real-time threat monitoring & Immediate alert on attacks \\
+Log Analysis & Centralised security logging & Audit trail for NLHF \\
+Vulnerability Assessment & Continuous scanning & Proactive risk management \\
+Compliance Monitoring & GDPR, Cyber Essentials alignment & Funder confidence \\
+File Integrity & Detect unauthorised changes & Heritage content protection \\
+\bottomrule
+\end{tabular}
+\caption{Wazuh Security Components}
+\end{table}
+
+\subsubsection{Zero Trust Architecture Principles}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{5cm}L{8cm}}
+\toprule
+\textbf{\textcolor{primary}{Principle}} & \textbf{\textcolor{primary}{Implementation}} \\
+\midrule
+Never trust, always verify & Multi-factor authentication for all users \\
+Least privilege access & Role-based permissions (admin, curator, contributor, viewer) \\
+Assume breach & Continuous monitoring via Wazuh \\
+Explicit verification & Every access request authenticated \\
+Micro-segmentation & Database isolated from public interface \\
+\bottomrule
+\end{tabular}
+\caption{Zero Trust Implementation}
+\end{table}
+
+\subsection{Acting as Interim CIO}
+
+During the project, I will function as BSWN's \textbf{interim Chief Information Officer (CIO)}:
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{4.5cm}L{8.5cm}}
+\toprule
+\textbf{\textcolor{primary}{CIO Responsibility}} & \textbf{\textcolor{primary}{My Delivery}} \\
+\midrule
+Technology strategy & UnMuseum architecture aligned with BSWN mission \\
+Security oversight & Wazuh implementation and monitoring \\
+Vendor management & Microsoft, ElevenLabs, hosting relationships \\
+Compliance & GDPR, Cyber Essentials, NLHF requirements \\
+Staff training & Empower BSWN team to manage independently \\
+Risk management & Business continuity and disaster recovery \\
+\bottomrule
+\end{tabular}
+\caption{Interim CIO Responsibilities}
+\end{table}
+
+\textbf{Handover}: At project end, I document everything so BSWN can either manage internally or onboard a permanent technology lead.
+
+\subsection{Microsoft Engineer Review: Not a Single Point of Failure}
+
+\textbf{I am committed to ensuring BSWN is never dependent solely on me.}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{4cm}L{9cm}}
+\toprule
+\textbf{\textcolor{primary}{Safeguard}} & \textbf{\textcolor{primary}{Implementation}} \\
+\midrule
+Architecture Review & Microsoft engineers review my Azure design via Partner programme \\
+Documentation & Comprehensive technical guides for any developer to continue \\
+Open Source & No proprietary code that locks BSWN to me \\
+Knowledge Transfer & BSWN staff trained on all systems \\
+Community of Practice & Connect BSWN with other heritage technology organisations \\
+\bottomrule
+\end{tabular}
+\caption{Single Point of Failure Mitigation}
+\end{table}
+
+\subsubsection{Microsoft Architect Review Process}
+
+\begin{enumerate}[leftmargin=*]
+    \item I design the UnMuseum Azure architecture
+    \item Submit for review through Microsoft for Startups/Nonprofit programme
+    \item Microsoft Solutions Architect provides feedback
+    \item I implement recommendations
+    \item BSWN receives Microsoft-vetted infrastructure
+\end{enumerate}
+
+This ensures professional validation and ongoing Microsoft support relationship.
+
+\subsection{Microsoft Heritage and AI for Good}
+
+Microsoft has a strong track record supporting cultural heritage organisations through their nonprofit programmes:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Microsoft AI for Good}: Dedicated track for cultural preservation projects
+    \item \textbf{Hip Hop Museum Partnership}: Microsoft provided Azure infrastructure for the Universal Hip Hop Museum in the Bronx, demonstrating their commitment to preserving Black cultural heritage
+    \item \textbf{Azure Nonprofit Credits}: Up to \$3,500 annually for eligible organisations
+    \item \textbf{Microsoft 365 Nonprofit}: Free productivity suite for registered charities
+\end{itemize}
+
+I have direct experience navigating these programmes, having secured \$5,000 Azure AI facility for Nyfasi in 2020.
+
+% ============================================
+% SECTION 3: WORK PACKAGES
+% ============================================
+\section{Work Packages and Deliverables}
+
+\subsection{Work Package 1: Discovery and Design (Weeks 1 to 4)}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{2.5cm}L{5.5cm}L{5cm}}
+\toprule
+\textbf{\textcolor{primary}{Deliverable}} & \textbf{\textcolor{primary}{Description}} & \textbf{\textcolor{primary}{Acceptance Criteria}} \\
+\midrule
+WP1.1 & Community research and stakeholder interviews & Research report approved by BSWN \\
+WP1.2 & Wireframes and user interface designs & Sign-off from project lead \\
+WP1.3 & Lovable interactive prototypes & Community feedback collected \\
+WP1.4 & Microsoft nonprofit registration & Tenant active with credits \\
+WP1.5 & ElevenLabs Impact Program application & License approved \\
+\bottomrule
+\end{tabular}
+\caption{Work Package 1 Deliverables}
+\end{table}
+
+\subsection{Work Package 2: Core Development (Weeks 5 to 10)}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{2.5cm}L{5.5cm}L{5cm}}
+\toprule
+\textbf{\textcolor{primary}{Deliverable}} & \textbf{\textcolor{primary}{Description}} & \textbf{\textcolor{primary}{Acceptance Criteria}} \\
+\midrule
+WP2.1 & Platform foundation (Omeka S, Azure) & Platform accessible \\
+WP2.2 & Authentication system & Secure login functional \\
+WP2.3 & Content management dashboard & Staff can add content \\
+WP2.4 & Wazuh security implementation & Alerts functioning \\
+\bottomrule
+\end{tabular}
+\caption{Work Package 2 Deliverables}
+\end{table}
+
+\subsection{Work Package 3: Feature Development (Weeks 11 to 16)}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{2.5cm}L{5.5cm}L{5cm}}
+\toprule
+\textbf{\textcolor{primary}{Deliverable}} & \textbf{\textcolor{primary}{Description}} & \textbf{\textcolor{primary}{Acceptance Criteria}} \\
+\midrule
+WP3.1 & Archive system with Dublin Core metadata & Heritage items catalogued \\
+WP3.2 & AI-powered semantic search & Relevant results returned \\
+WP3.3 & ElevenLabs voice integration & Voices preserved and playable \\
+WP3.4 & Community contribution features & Community can submit stories \\
+\bottomrule
+\end{tabular}
+\caption{Work Package 3 Deliverables}
+\end{table}
+
+\subsection{Work Package 4: Testing and Compliance (Weeks 17 to 20)}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{2.5cm}L{5.5cm}L{5cm}}
+\toprule
+\textbf{\textcolor{primary}{Deliverable}} & \textbf{\textcolor{primary}{Description}} & \textbf{\textcolor{primary}{Acceptance Criteria}} \\
+\midrule
+WP4.1 & Community beta testing & Feedback incorporated \\
+WP4.2 & WCAG 2.1 AA accessibility audit & Audit passed \\
+WP4.3 & Security and penetration testing & Vulnerabilities addressed \\
+WP4.4 & GRC documentation & NLHF requirements met \\
+\bottomrule
+\end{tabular}
+\caption{Work Package 4 Deliverables}
+\end{table}
+
+\subsection{Work Package 5: Launch and Handover (Weeks 21 to 24)}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{2.5cm}L{5.5cm}L{5cm}}
+\toprule
+\textbf{\textcolor{primary}{Deliverable}} & \textbf{\textcolor{primary}{Description}} & \textbf{\textcolor{primary}{Acceptance Criteria}} \\
+\midrule
+WP5.1 & Platform launch and go-live & Platform live \\
+WP5.2 & Staff training programme & Staff confident \\
+WP5.3 & Technical documentation handover & BSWN has complete control \\
+WP5.4 & Support transition agreement & Support process clear \\
+\bottomrule
+\end{tabular}
+\caption{Work Package 5 Deliverables}
+\end{table}
+
+% ============================================
+% SECTION 4: TIMELINE
+% ============================================
+\section{Timeline and Gantt Chart}
+
+\subsection{Phase Overview}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{4cm}L{2cm}L{2cm}L{5cm}}
+\toprule
+\textbf{\textcolor{primary}{Phase}} & \textbf{\textcolor{primary}{Duration}} & \textbf{\textcolor{primary}{Weeks}} & \textbf{\textcolor{primary}{Key Deliverables}} \\
+\midrule
+Discovery and Design & 4 weeks & 1 to 4 & Research, wireframes, prototypes \\
+Core Development & 6 weeks & 5 to 10 & Platform, authentication, CMS \\
+Feature Development & 6 weeks & 11 to 16 & Archive, AI search, voice \\
+Testing and Compliance & 4 weeks & 17 to 20 & Beta testing, accessibility \\
+Launch and Handover & 4 weeks & 21 to 24 & Go-live, training, documentation \\
+Support Period & 6 months & 25 to 48 & Maintenance, enhancements \\
+\bottomrule
+\end{tabular}
+\caption{Project Phases}
+\end{table}
+
+\subsection{Gantt Chart}
+
+{\small
+\begin{verbatim}
+WEEK:        1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+             |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+DISCOVERY    [=========]
+  Research      [===]
+  Wireframes       [===]
+  Prototypes          [===]
+  MSFT/11Labs   [======]
+             
+CORE DEV              [==================]
+  Platform               [=========]
+  Auth                      [======]
+  CMS                          [======]
+  Wazuh                     [======]
+             
+FEATURES                                [==================]
+  Archive                                  [=========]
+  AI Search                                   [======]
+  Voice                                          [======]
+             
+TESTING                                                   [===========]
+  Beta                                                       [======]
+  Accessibility                                                 [===]
+  Security                                                        [===]
+             
+LAUNCH                                                                  [=========]
+  Go-live                                                                  [===]
+  Training                                                                    [===]
+  Handover                                                                       [===]
+\end{verbatim}
+}
+
+% ============================================
+% SECTION 5: BUDGET
+% ============================================
+\section{Budget Breakdown}
+
+\subsection{SFIA-Based Pricing Rationale}
+
+This pricing follows the \textbf{Skills Framework for the Information Age (SFIA)}, the industry standard for IT skills assessment used by the UK Government Digital Service and public sector procurement.
+
+\textbf{My SFIA Level Assessment: Level 4 (Enable)}
+
+SFIA Level 4 practitioners ``work under general direction within clear framework of accountability, plan and manage their own work to meet objectives'' (SFIA Foundation, 2024).
+
+\subsection{Detailed Cost Breakdown}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{6cm}C{1.5cm}C{2cm}C{2cm}}
+\toprule
+\textbf{\textcolor{primary}{Work Package}} & \textbf{\textcolor{primary}{Days}} & \textbf{\textcolor{primary}{Day Rate}} & \textbf{\textcolor{primary}{Cost}} \\
+\midrule
+\textbf{WP1: Discovery and Design} & \textbf{10} & \textbf{\pounds350} & \textbf{\pounds3,500} \\
+\quad Community research & 3 & \pounds350 & \pounds1,050 \\
+\quad Wireframes and UX design & 3 & \pounds350 & \pounds1,050 \\
+\quad Lovable prototypes & 2 & \pounds350 & \pounds700 \\
+\quad Microsoft/ElevenLabs setup & 2 & \pounds350 & \pounds700 \\
+\midrule
+\textbf{WP2: Core Development} & \textbf{15} & \textbf{\pounds400} & \textbf{\pounds6,000} \\
+\quad Platform foundation & 5 & \pounds400 & \pounds2,000 \\
+\quad Authentication system & 4 & \pounds400 & \pounds1,600 \\
+\quad Content management & 4 & \pounds400 & \pounds1,600 \\
+\quad Wazuh security setup & 2 & \pounds400 & \pounds800 \\
+\midrule
+\textbf{WP3: Feature Development} & \textbf{15} & \textbf{\pounds400} & \textbf{\pounds6,000} \\
+\quad Archive system & 5 & \pounds400 & \pounds2,000 \\
+\quad AI search integration & 5 & \pounds400 & \pounds2,000 \\
+\quad ElevenLabs voice integration & 3 & \pounds400 & \pounds1,200 \\
+\quad Community features & 2 & \pounds400 & \pounds800 \\
+\midrule
+\textbf{WP4: Testing and Compliance} & \textbf{5} & \textbf{\pounds400} & \textbf{\pounds2,000} \\
+\quad Beta testing coordination & 2 & \pounds400 & \pounds800 \\
+\quad Accessibility audit & 1.5 & \pounds400 & \pounds600 \\
+\quad Security review & 1.5 & \pounds400 & \pounds600 \\
+\midrule
+\textbf{WP5: Launch and Handover} & \textbf{5} & \textbf{\pounds400} & \textbf{\pounds2,000} \\
+\quad Platform launch & 1 & \pounds400 & \pounds400 \\
+\quad Staff training & 2 & \pounds400 & \pounds800 \\
+\quad Documentation & 2 & \pounds400 & \pounds800 \\
+\midrule
+\textbf{Contingency (10\%)} & -- & -- & \textbf{\pounds2,000} \\
+\midrule
+\textbf{TOTAL} & \textbf{50 days} & -- & \textbf{\pounds21,500} \\
+\bottomrule
+\end{tabular}
+\caption{Detailed Cost Breakdown}
+\end{table}
+
+\subsection{Additional Value (Included at No Cost)}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{6cm}C{3cm}C{3cm}}
+\toprule
+\textbf{\textcolor{primary}{Service}} & \textbf{\textcolor{primary}{Market Value}} & \textbf{\textcolor{primary}{My Price}} \\
+\midrule
+Microsoft nonprofit onboarding & \pounds2,000 & Included \\
+ElevenLabs Impact Program application & \pounds500 & Included \\
+Azure credits secured (annual) & \pounds2,800 & Included \\
+Microsoft 365 nonprofit setup & \pounds1,000 & Included \\
+Wazuh security platform & \pounds3,000 & Included \\
+12-month support & \pounds4,000 & Included \\
+\midrule
+\textbf{Total Value Added} & \textbf{\pounds13,300} & \textbf{\pounds0} \\
+\bottomrule
+\end{tabular}
+\caption{Additional Value Included}
+\end{table}
+
+\subsection{Total Cost of Ownership (5-Year Analysis)}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{3.5cm}C{3.5cm}C{3cm}C{3cm}}
+\toprule
+\textbf{\textcolor{primary}{Cost Category}} & \textbf{\textcolor{primary}{Traditional Agency}} & \textbf{\textcolor{primary}{My Model}} & \textbf{\textcolor{primary}{Your Savings}} \\
+\midrule
+Initial Development & \pounds45,000 to \pounds80,000 & \pounds21,500 & \pounds23,500+ \\
+Annual Hosting & \pounds3,000 to \pounds6,000 & \pounds0 to \pounds500 & \pounds2,500+/yr \\
+Annual Maintenance & \pounds8,000 to \pounds15,000 & \pounds2,000 to \pounds4,000 & \pounds6,000+/yr \\
+Microsoft 365 & \pounds2,000/yr & \pounds0 (nonprofit) & \pounds2,000/yr \\
+ElevenLabs & \pounds2,640/yr & \pounds0 (Impact) & \pounds2,640/yr \\
+\midrule
+\textbf{5-Year Total} & \textbf{\pounds120,000 to \pounds200,000} & \textbf{\pounds35,000 to \pounds50,000} & \textbf{\pounds70,000+} \\
+\bottomrule
+\end{tabular}
+\caption{5-Year Total Cost of Ownership}
+\end{table}
+
+\subsection{Payment Schedule}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{4cm}C{2.5cm}C{2cm}L{4.5cm}}
+\toprule
+\textbf{\textcolor{primary}{Milestone}} & \textbf{\textcolor{primary}{Percentage}} & \textbf{\textcolor{primary}{Amount}} & \textbf{\textcolor{primary}{Deliverable}} \\
+\midrule
+Contract Signing & 20\% & \pounds4,300 & Project initiation \\
+WP1 Complete & 15\% & \pounds3,225 & Research, prototypes \\
+WP2 Complete & 25\% & \pounds5,375 & Core platform \\
+WP3 Complete & 20\% & \pounds4,300 & Full features \\
+WP4/5 Complete & 20\% & \pounds4,300 & Launch, handover \\
+\bottomrule
+\end{tabular}
+\caption{Payment Schedule}
+\end{table}
+
+\textbf{Business and Accountancy:}
+\begin{itemize}[leftmargin=*]
+    \item Business Account: Mettle (NatWest)
+    \item Accountancy: FreeAgent (Making Tax Digital compliant)
+    \item Invoicing: Professional invoices with full breakdown
+\end{itemize}
+
+% ============================================
+% SECTION 6: COMMUNITY ENGAGEMENT
+% ============================================
+\section{Community Engagement Strategy}
+
+\subsection{Co-Design Principles}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{4.5cm}L{8.5cm}}
+\toprule
+\textbf{\textcolor{primary}{Principle}} & \textbf{\textcolor{primary}{Implementation}} \\
+\midrule
+Nothing about us without us & Community members involved in every design decision \\
+Accessible participation & Online and in-person consultation options \\
+Multiple narratives & Platform honours contested histories, not single story \\
+Intergenerational & Young people and elders both represented \\
+Multilingual & Content in community languages \\
+\bottomrule
+\end{tabular}
+\caption{Co-Design Principles}
+\end{table}
+
+\subsection{Voice Preservation Programme}
+
+\textbf{ElevenLabs-powered oral history initiative:}
+
+\begin{enumerate}[leftmargin=*]
+    \item Identify community elders and heritage bearers
+    \item Record high-quality voice samples (supervised, consented)
+    \item Create voice clones for archival purposes
+    \item Enable future generations to hear stories in original voices
+    \item Provide accessibility through text-to-speech in community voices
+\end{enumerate}
+
+% ============================================
+% SECTION 7: STEWARDSHIP MODEL
+% ============================================
+\section{Technologist Stewardship Model}
+
+\subsection{Philosophy}
+
+I operate under a \textbf{technologist stewardship model} rather than a traditional vendor relationship:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Partnership over transaction}: I invest in BSWN's long-term success, not just project completion
+    \item \textbf{Knowledge transfer}: My goal is to empower BSWN to manage technology independently
+    \item \textbf{Community accountability}: I am accountable to the communities BSWN serves, not just the organisation
+    \item \textbf{Transparent pricing}: SFIA-based rates with full breakdown, no hidden costs
+    \item \textbf{Open source commitment}: No proprietary lock-in; everything I build can be maintained by others
+\end{itemize}
+
+\subsection{Managed Service Commitment}
+
+\textbf{During the Project (Months 1 to 12):}
+\begin{itemize}[leftmargin=*]
+    \item Full development and delivery
+    \item Weekly progress reports
+    \item Responsive communication within one working day
+\end{itemize}
+
+\textbf{Post-Launch Support (Months 13 to 24):}
+\begin{itemize}[leftmargin=*]
+    \item Included maintenance and bug fixes
+    \item Staff training refreshers
+    \item Microsoft grant renewal assistance
+\end{itemize}
+
+\textbf{Extended Partnership (Years 2 to 4):}
+\begin{itemize}[leftmargin=*]
+    \item Priority access for additional work
+    \item Ongoing digital strategy advisory
+    \item Grant application support
+    \item Technology roadmap planning
+\end{itemize}
+
+% ============================================
+% SECTION 8: EXPERIENCE
+% ============================================
+\section{Professional Experience and References}
+
+\subsection{Relevant Experience Mapped to BSWN Requirements}
+
+\subsubsection{PRGRSS / Global Purpose Enterprise}
+\textbf{Product Owner and Manager} | April to July 2025
+
+\begin{itemize}[leftmargin=*]
+    \item Led product development for global mentorship platform
+    \item Managed cross-timezone development team (UK and Pakistan)
+    \item Built four rapid prototypes using Lovable.dev
+    \item Reduced development miscommunication by 60 per cent
+    \item \textbf{SFIA}: Product Management (Level 4), Business Analysis (Level 4)
+\end{itemize}
+
+\subsubsection{University of South Wales}
+\textbf{Digital Technical Mentor} | September 2023 to August 2024
+
+\begin{itemize}[leftmargin=*]
+    \item Supported 23,000 users across multiple campuses
+    \item Enterprise IT support and training delivery
+    \item Managed web platform migration project
+    \item \textbf{SFIA}: Service Desk (Level 3), Learning Delivery (Level 3)
+\end{itemize}
+
+\subsubsection{Technocamps Wales}
+\textbf{STEM Ambassador} | February 2023 to August 2024
+
+\begin{itemize}[leftmargin=*]
+    \item Wales-wide STEM education delivery
+    \item Ukrainian refugee children technology workshops
+    \item \textbf{SFIA}: Learning Delivery (Level 3), Stakeholder Management (Level 3)
+\end{itemize}
+
+\subsubsection{Nyfasi}
+\textbf{Microsoft Nonprofit Onboarding} | September to December 2020
+
+\begin{itemize}[leftmargin=*]
+    \item Secured \$5,000 Azure AI facility through Microsoft nonprofit programme
+    \item Navigated complete Microsoft compliance verification cycle
+    \item \textbf{SFIA}: Supplier Management (Level 4), Governance (Level 3)
+\end{itemize}
+
+\subsubsection{FirstGens CIC}
+\textbf{Advisory Board Member} | Ongoing
+
+\begin{itemize}[leftmargin=*]
+    \item Technology advisory for first-generation student support
+    \item Platform development guidance
+    \item \textbf{SFIA}: Consultancy (Level 4), Stakeholder Management (Level 4)
+\end{itemize}
+
+\subsubsection{Irene Vera Foundation (IVF)}
+\textbf{Co-Founder and Technology Lead}
+
+\begin{itemize}[leftmargin=*]
+    \item Built technology infrastructure for Black maternal health nonprofit
+    \item Lovable.dev prototype development
+    \item \textbf{SFIA}: Solution Architecture (Level 4), Requirements Definition (Level 4)
+\end{itemize}
+
+\subsection{Qualifications}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{BSc (Hons) ICT} | University of South Wales (2:1, Dissertation: First Class)
+    \item \textbf{AWS Cloud Engineering re/Start} | Cardiff and Vale College (2024)
+    \item \textbf{DBS Enhanced Check} | Cleared
+\end{itemize}
+
+\subsection{SFIA Skills Matrix}
+
+\begin{table}[h]
+\centering
+\rowcolors{2}{lightgrey}{white}
+\begin{tabular}{L{5cm}C{2cm}L{6cm}}
+\toprule
+\textbf{\textcolor{primary}{Skill}} & \textbf{\textcolor{primary}{Level}} & \textbf{\textcolor{primary}{Evidence}} \\
+\midrule
+Product Management & Level 4 & PRGRSS Product Owner role \\
+Solution Architecture & Level 4 & IVF, Getaway AI, Nyfasi \\
+Business Analysis & Level 4 & PRGRSS requirements gathering \\
+Software Development & Level 4 & React, Node.js, Python projects \\
+User Experience Design & Level 3 & Lovable.dev prototyping \\
+Learning Delivery & Level 3 & USW, Technocamps roles \\
+Service Management & Level 3 & USW IT support \\
+Security Administration & Level 3 & Wazuh, Azure security \\
+\bottomrule
+\end{tabular}
+\caption{SFIA Skills Matrix}
+\end{table}
+
+\subsection{References}
+
+Available upon request from:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Gary Thompson} | Creative and Cultural Consultant, Cables and Cameras CIC, Bristol
+    \item \textbf{Laura Roberts} | Technocamps, Wales
+    \item \textbf{Sally-Anne} | USW Study Skills Team
+    \item \textbf{Alaya} | CEO, FirstGens CIC
+    \item \textbf{Hope} | Founder, Irene Vera Foundation
+\end{itemize}
+
+% ============================================
+% SECTION 9: CLOSING
+% ============================================
+\section{Closing Statement}
+
+The UnMuseum is an extraordinary opportunity to create something truly meaningful: a living digital space where Black and racially minoritised communities across the South West can see themselves, tell their own stories, and preserve their heritage for future generations.
+
+\textbf{I bring:}
+\begin{itemize}[leftmargin=*]
+    \item Technical excellence proven across multiple platforms
+    \item Microsoft nonprofit expertise (demonstrated with Nyfasi)
+    \item ElevenLabs voice preservation for oral histories
+    \item Enterprise security through Wazuh
+    \item Zero trust architecture ensuring data protection
+    \item Commitment to knowledge transfer so BSWN is never dependent solely on me
+    \item Microsoft engineer review ensuring professional validation
+\end{itemize}
+
+I understand that the best platforms are built \textit{with} communities, not \textit{for} them. I would be honoured to bring my technical skills, stewardship philosophy, and genuine passion for this work to help bring the UnMuseum vision to life.
+
+\vspace{1cm}
+
+\textbf{\Large\textcolor{primary}{Let us build something powerful together.}}
+
+\vspace{1cm}
+
+\textbf{Andrea Enning}\\
+28 January 2026
+
+% ============================================
+% BIBLIOGRAPHY
+% ============================================
+\newpage
+\section{Bibliography}
+
+\hangpara{1.5em}{1}ElevenLabs (2025) \textit{Impact Program}. Available at: \url{https://elevenlabs.io/impact-program} (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}Heritage Fund (2024) \textit{Good Practice Guidance: Digital Projects}. National Lottery Heritage Fund. Available at: \url{https://www.heritagefund.org.uk} (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}Microsoft (2019) `Breaking New Sound: The Hip Hop Museum', \textit{Microsoft Unlocked}. Available at: \url{https://unlocked.microsoft.com/the-hip-hop-museum/} (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}Microsoft (2024) `Microsoft for Nonprofits: Eligibility', \textit{Microsoft Nonprofits}. Available at: \url{https://www.microsoft.com/en-us/nonprofits/eligibility} (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}Omeka (2025) \textit{Omeka S Technical Documentation}. Available at: \url{https://omeka.org} (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}SFIA Foundation (2024) \textit{SFIA 9: Skills Framework for the Information Age}. Available at: \url{https://sfia-online.org} (Accessed: 28 January 2026).
+
+\hangpara{1.5em}{1}Wazuh (2025) \textit{Open Source Security Platform}. Available at: \url{https://wazuh.com} (Accessed: 28 January 2026).
+
+\end{document}

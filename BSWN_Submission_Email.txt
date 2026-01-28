@@ -1,0 +1,53 @@
+To: Mina Drobna <mina@bswn.org.uk>
+Cc: Gary Thompson
+Subject: UnMuseum Developer Proposal - Andrea Enning (via Gary Thompson / Cables and Cameras CIC)
+
+---
+
+Dear Mina,
+
+I hope this email finds you well. Gary Thompson kindly introduced me to the UnMuseum Developer opportunity, and I am pleased to submit my proposal for your consideration.
+
+ABOUT ME
+
+I am a first generation graduate with a BSc (Hons) ICT from the University of South Wales (2:1, First Class dissertation on RAG architecture). My experience spans:
+
+- Digital Technical Mentor at University of South Wales, delivering Microsoft 365 training to students and faculty
+- End User Computing Support managing Azure Active Directory for 23,000+ users
+- STEM Ambassador at Technocamps, training educators and students in digital skills
+- Product Coordinator at PRGRSS mentoring platform (Apple and Android app stores)
+
+WHAT I BRING TO BSWN
+
+Beyond technical development, I will procure and set up BSWN's Microsoft 365 tenant at no additional cost, including:
+
+- Microsoft 365 Business (email, Teams, SharePoint, Office apps)
+- Azure nonprofit credits (cloud hosting worth £2,800/year)
+- ElevenLabs Impact Program (voice preservation, 12 months free)
+- Wazuh security platform (enterprise-grade protection)
+
+I have successfully onboarded FirstGens CIC and Nyfasi onto Microsoft nonprofit programmes, securing them over £46,000 in grants and resources.
+
+ENGAGEMENT STRUCTURE
+
+I will be subcontracting under Gary Thompson / Cables and Cameras CIC, ensuring clear accountability and combined expertise in heritage technology. The project will be delivered remotely.
+
+INVESTMENT
+
+My proposal totals £27,500 for 50 days of work, representing 27-54% savings compared to G-Cloud framework rates. This includes £14,800 of additional value at no cost.
+
+ATTACHED DOCUMENTS
+
+1. Full Developer Proposal (PDF)
+2. Curriculum Vitae (PDF)
+
+I would welcome the opportunity to discuss this proposal further. Please do not hesitate to contact me or Gary with any questions.
+
+With warm regards,
+
+Andrea Enning
+V-Shaped Technical Architect | SFIA Level 5
+andiekobbietks@outlook.com
++44 07480 261369
+linkedin.com/in/andiekobbietks
+github.com/andiekobbietks

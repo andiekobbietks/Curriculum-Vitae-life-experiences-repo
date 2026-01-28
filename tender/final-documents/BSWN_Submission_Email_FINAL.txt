@@ -1,0 +1,37 @@
+Subject: UnMuseum Developer Application - Andrea Enning via Cables and Cameras CIC
+
+Dear BSWN Recruitment Team,
+
+I am writing to express my interest in the UnMuseum Developer role, submitting this application as a subcontractor through Cables and Cameras CIC, with Gary Thompson as project manager.
+
+I bring a unique combination of technical expertise and lived experience to this heritage project:
+
+TECHNICAL CREDENTIALS:
+- First Class dissertation on RAG architecture at University of South Wales
+- Developed FirstGens Airtable system securing USW Widening Participation funding
+- USW Digital Mentor delivering Microsoft 365 workshops
+- Experience with Omeka S, Wazuh SIEM, and self-hosted infrastructure
+
+SUBJECT MATTER EXPERTISE:
+- Published in the British Journal of Sociology (November 2025) as a research participant examining Black Italian diaspora experiences
+- Marie Curie research subject for the MIDIC project (EU Horizon 2020)
+- Featured in Italics Magazine "Being Afro-European" series
+
+I understand the UnMuseum vision as a Living Archive that centres Black Bristolian narratives through relational discovery rather than colonial taxonomies. My proposal covers:
+
+- Core Platform Development: £27,500
+- Wazuh SIEM Implementation: £2,400
+- GRC Documentation Package: £2,550
+- Microsoft 365 Tenant Setup: £3,750
+- SME Consultancy (Intercultural Heritage): £2,700
+
+Total Investment: £38,900 (excluding VAT)
+
+All rates are benchmarked against G-Cloud 14 Framework rates, representing 45-55% below market comparables whilst maintaining professional standards appropriate for National Lottery Heritage Fund accountability.
+
+Please find attached my detailed proposal and CV. I would welcome the opportunity to discuss how my technical skillsand intercultural heritage expertise can serve the UnMuseum vision.
+
+Kind regards,
+
+Andrea Enning
+Subcontractor via Cables and Cameras CIC (Bristol)
