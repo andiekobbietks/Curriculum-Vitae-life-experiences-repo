@@ -26,14 +26,28 @@ life-experiences-repo/
 │   │   └── assets/        # Supporting files (images, docs)
 │   └── [org-2]/
 │       └── ...
+├── raw-inputs/            # Intake folder for raw data
+│   ├── README.md          # Raw inputs guide
+│   └── whatsapp-chats/    # WhatsApp chat exports
+│       ├── unprocessed/   # New chats to be processed
+│       ├── processed/     # Documented chats
+│       └── media/         # Images and documents
 └── templates/             # Templates for documentation
     ├── README.md          # Template guide
     ├── ORGANIZATION_README_TEMPLATE.md
     ├── PROJECT_TEMPLATE.md
-    └── EVIDENCE_TEMPLATE.md
+    ├── EVIDENCE_TEMPLATE.md
+    └── LESSONS_LEARNED_TEMPLATE.md
 ```
 
 ## Quick Navigation
+
+### 📥 Raw Inputs
+
+Dump your work-related content here for processing:
+
+- [Raw Inputs Overview](raw-inputs/README.md) - How to use the intake folder
+- [WhatsApp Chats](raw-inputs/whatsapp-chats/README.md) - *Drop chat exports here for Copilot to process*
 
 ### 📂 Organizations
 
@@ -50,6 +64,7 @@ Use these templates to create your own documentation:
 - [Organization Template](templates/ORGANIZATION_README_TEMPLATE.md)
 - [Project Template](templates/PROJECT_TEMPLATE.md)
 - [Evidence Template](templates/EVIDENCE_TEMPLATE.md)
+- [Lessons Learned Template](templates/LESSONS_LEARNED_TEMPLATE.md)
 
 ## Key Features
 

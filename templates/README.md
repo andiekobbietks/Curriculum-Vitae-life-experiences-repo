@@ -55,6 +55,24 @@ Use this template to document specific evidence of your work, skills, and achiev
 - Impact documentation
 - Tagging system for easy discovery
 
+### 4. Lessons Learned Template
+**File:** `LESSONS_LEARNED_TEMPLATE.md`
+
+Use this template to document insights and lessons extracted from experiences, chats, and projects.
+
+**When to use:**
+- Processing WhatsApp chat exports about work
+- Documenting post-project retrospectives
+- Capturing insights from challenging experiences
+- Recording what worked and what didn't
+
+**Key Features:**
+- Structured sections for successes and challenges
+- Do more/do less/start/stop recommendations
+- Skills demonstrated with evidence
+- Quote extraction for key insights
+- Integration with raw-inputs processing workflow
+
 ## Recommended Folder Structure
 
 ```
@@ -78,11 +96,21 @@ life-experiences-repo/
 │   ├── [organization-name-2]/
 │   │   └── ... (same structure)
 │   └── ...
+├── raw-inputs/
+│   ├── README.md (raw inputs guide)
+│   └── whatsapp-chats/
+│       ├── README.md (WhatsApp processing guide)
+│       ├── unprocessed/      # Drop chat exports here
+│       ├── processed/        # Completed chats
+│       ├── by-project/       # Organized by project
+│       ├── by-date/          # Organized by date
+│       └── media/            # Images and documents
 └── templates/
     ├── README.md (this file)
     ├── ORGANIZATION_README_TEMPLATE.md
     ├── PROJECT_TEMPLATE.md
-    └── EVIDENCE_TEMPLATE.md
+    ├── EVIDENCE_TEMPLATE.md
+    └── LESSONS_LEARNED_TEMPLATE.md
 ```
 
 ## How to Use These Templates
