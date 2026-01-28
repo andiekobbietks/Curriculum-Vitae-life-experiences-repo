@@ -53,7 +53,6 @@ gantt
   - Description: Analysis of competing solutions, market opportunities, and moat strategy
   - Focus: Identifying unique value propositions and sustainable competitive advantages
   - Impact: Shaped product positioning and differentiation strategy
-  - Evidence: [Market Research](evidence/market-research.md)
 
 ### UI/UX Design
 
@@ -61,13 +60,11 @@ gantt
   - Description: Designing the user interface and experience for the Getaway app
   - Technologies: Figma, Lovable, Motion design
   - Impact: Creating the visual identity and user flows
-  - Evidence: [UI/UX Design](evidence/ui-ux-design.md)
 
 - **Splash Screen & Animation**
   - Description: Designed and developed an animated splash screen with particle effects
   - Technologies: Canvas-based rendering, motion graphics
   - Impact: Creating memorable first impression and brand storytelling
-  - Evidence: [Animation Design](evidence/splash-animation.md)
 
 ### Technical Advisory
 
@@ -75,7 +72,6 @@ gantt
   - Description: Researching tools like Firecrawl, Laminar, Bright Data, Pica for the travel agent
   - Focus: Identifying tools to enhance the AI agent's capabilities
   - Impact: Expanding the agent's ability to access travel data
-  - Evidence: [Tool Research](evidence/tool-integration.md)
 
 ---
 
@@ -242,8 +238,6 @@ Created high-fidelity prototype: [https://getaway-ai-voyage-planner.lovable.app/
 ## Related Documentation
 
 - **Evidence**: [AI Research](evidence/ai-architecture-research.md)
-- **Evidence**: [UI/UX Design](evidence/ui-ux-design.md)
-- **Projects**: [Product Roadmap](projects/product-roadmap.md)
 
 ---
 

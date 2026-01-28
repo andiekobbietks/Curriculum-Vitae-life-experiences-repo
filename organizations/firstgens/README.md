@@ -22,7 +22,7 @@ gantt
     title My Journey at FirstGens
     dateFormat  YYYY-MM-DD
     section Roles
-    Community Advisory Group Member    :2024-02-14, 365d
+    Community Advisory Group Member    :2024-02-14, 2026-01-28
 ```
 
 ### Key Milestones
@@ -65,18 +65,13 @@ gantt
 
 ## Skills Demonstrated
 
-### Strategic Skills
+### Technical Skills
 
 | Skill | Proficiency Level | Evidence |
 |-------|-------------------|----------|
 | Strategic Thinking | Advanced | UCAS page ideation and contribution |
 | Stakeholder Engagement | Intermediate | Advisory group collaboration |
 | Community Building | Advanced | Advisory group participation |
-
-### Technical Skills
-
-| Skill | Proficiency Level | Evidence |
-|-------|-------------------|----------|
 | UX/UI Analysis | Advanced | Website feedback and recommendations |
 | Accessibility | Advanced | UCAS page accessibility suggestions |
 | Content Strategy | Intermediate | Resource page recommendations |
@@ -147,7 +142,6 @@ Worked alongside other advisory group members including:
 ## Related Documentation
 
 - **Evidence**: [UCAS Page Contribution](evidence/ucas-page-contribution.md)
-- **Lessons Learned**: [Advisory Group Experience](evidence/lessons-learned-advisory.md)
 
 ---
 

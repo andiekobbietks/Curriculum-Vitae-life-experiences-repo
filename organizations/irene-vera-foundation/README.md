@@ -51,7 +51,6 @@ gantt
   - Description: Leading the development and design of the IVF charity website
   - Technologies: Web development, UX/UI design
   - Impact: Creating the digital presence for the charity
-  - Evidence: [Website Development](evidence/website-development.md)
 
 ### Strategic & Advisory
 
@@ -59,7 +58,6 @@ gantt
   - Description: Contributing to event strategy including the "Inside the Mind" neurodiversity event
   - Focus: Accessibility considerations, monetisation strategy, event logistics
   - Impact: Helped shape event approach and webinar strategy
-  - Evidence: [Event Planning](evidence/event-planning.md)
 
 - **UI/UX Accessibility Feedback**
   - Description: Provided detailed accessibility feedback on marketing materials
@@ -217,9 +215,7 @@ Free 45-minute session: "Understanding ADHD: Clinical Insights and Management Ti
 
 ## Related Documentation
 
-- **Evidence**: [Website Development](evidence/website-development.md)
 - **Evidence**: [Accessibility Review](evidence/accessibility-review.md)
-- **Lessons Learned**: [Charity Tech Work](evidence/lessons-learned-charity.md)
 
 ---
 

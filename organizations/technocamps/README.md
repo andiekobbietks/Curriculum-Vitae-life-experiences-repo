@@ -24,7 +24,7 @@ gantt
     section Milestones
     Onboarding & Training    :2023-01-31, 30d
     DBS Clearance Completed  :2023-03-27, 7d
-    Regular Workshop Delivery :2023-02-13, 365d
+    Workshop Delivery (Ongoing) :2023-02-13, 2026-01-28
 ```
 
 ### Key Milestones
@@ -53,7 +53,6 @@ gantt
   - Description: Delivered special workshop at Cardiff Atrium for Ukrainian refugee children
   - Location: ATRiuM Building, Cardiff (near Queen Street Station)
   - Impact: Provided engaging STEM education for displaced children
-  - Evidence: [Refugee Workshop](evidence/refugee-workshop.md)
 
 ### Operations & Logistics
 
@@ -61,7 +60,7 @@ gantt
   - Description: Led relocation of all Technocamps equipment to new storage room
   - Tasks: Moving LEGO kits, filing cabinets, teaching materials, tablets
   - Collaboration: Worked with Eshan Fernando
-  - Evidence: [Equipment Relocation](evidence/equipment-relocation.md)
+  - Evidence: [Equipment Management](evidence/equipment-maintenance.md)
 
 - **LEGO Kit Maintenance**
   - Description: Systematic sorting, organization, and charging of LEGO Mindstorms kits
@@ -175,7 +174,6 @@ gantt
 
 - **Evidence**: [Workshop Delivery](evidence/workshop-delivery.md)
 - **Evidence**: [Equipment Management](evidence/equipment-maintenance.md)
-- **Lessons Learned**: [Ambassador Experience](evidence/lessons-learned-ambassador.md)
 
 ---
 
