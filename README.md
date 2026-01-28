@@ -66,6 +66,13 @@ Use these templates to create your own documentation:
 - [Evidence Template](templates/EVIDENCE_TEMPLATE.md)
 - [Lessons Learned Template](templates/LESSONS_LEARNED_TEMPLATE.md)
 
+### 📊 Processed Outputs
+
+Synthesised analysis and professional documentation:
+
+- [SFIA Skills Mapping](processed-outputs/sfia-mapping/README.md) - *Professional experiences mapped to the SFIA framework with value proposition analysis*
+- [LaTeX CV](processed-outputs/latex-cv/) - *Formal CV documentation*
+
 ## Key Features
 
 ### 📊 Rich Documentation with Charts
