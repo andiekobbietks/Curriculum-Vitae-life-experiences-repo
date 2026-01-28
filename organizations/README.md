@@ -40,6 +40,11 @@ organizations/
 
 ### Current Organizations
 
+- **[PRGRSS / Global Purpose Enterprise](prgrss-gpe/README.md)** *(April 2025 - Present)*
+  - Role: Product Owner / App Developer
+  - Focus: Mentorship app development, user research, UI/UX prototyping
+  - Key Achievement: Managed 50+ user onboarding, created multiple product prototypes, presented at National Grid
+
 - **[Getaway AI](getaway-ai/README.md)** *(May 2025 - Present)*
   - Role: Co-Founder / Product Designer / UX Lead
   - Focus: AI travel planning, product strategy, UI/UX design
@@ -195,11 +200,11 @@ organizations/
 
 ### Documentation Coverage
 
-- **Organizations Documented:** 5 (FirstGens, Technocamps, Irene Vera Foundation, Getaway AI, Example Tech Company)
+- **Organizations Documented:** 6 (PRGRSS/GPE, FirstGens, Technocamps, Irene Vera Foundation, Getaway AI, Example Tech Company)
 - **Projects Documented:** Multiple across organizations
-- **Evidence Pieces:** 6+ (UCAS contribution, workshop delivery, equipment management, AI research, accessibility review, etc.)
+- **Evidence Pieces:** 10+ (UCAS contribution, workshop delivery, equipment management, AI research, accessibility review, National Grid event, prototypes, feedback collection, etc.)
 - **Time Period Covered:** 2023 - Present
-- **WhatsApp Chats Processed:** 4 major group chats
+- **WhatsApp Chats Processed:** 8 major group and individual chats
 
 ### Update this section as you add more content to track your progress!
 
