@@ -1,0 +1,146 @@
+{
+  "source_file": "Andrea Enning Updated CV (IT Support).docx",
+  "extracted_date": "2026-01-28",
+  
+  "design_tokens": {
+    "fonts": {
+      "body": "Arial",
+      "heading": "Arial",
+      "name_font": "Calibri"
+    },
+    "colors": {
+      "primary": "#025940",
+      "body_text": "#404040",
+      "accent_green": "#1DAA61",
+      "hyperlink": "#467886",
+      "dark": "#1B1B1B"
+    },
+    "typography": {
+      "name_size": "36pt",
+      "heading1_size": "14pt",
+      "body_size": "12pt"
+    },
+    "layout": {
+      "margins": {"top": "1.5cm", "bottom": "1.5cm", "left": "2cm", "right": "1.5cm"},
+      "columns": 1
+    }
+  },
+
+  "content": {
+    "name": "Andrea Enning",
+    "location": "Nottinghamshire, UK",
+    "email": "andiekobbietks@outlook.com",
+    "phone": "+44 07480 261369",
+    "linkedin": "in/andiekobbietks",
+    "github": "https://github.com/andiekobbietks",
+
+    "professional_profile": "I am an extremely versatile IT professional with extensive experience in second-line support, cloud computing (AWS/Azure), passionate about infrastructure automation and system optimisation. Holds accreditation in AWS re/Start, artificial intelligence workforce upskilling, and professional communication. I have been specialising in helping startups and businesses enhance their digital presence. I take pride in leveraging technology to create impactful solutions that drive operational efficiency and business growth.\n\nOne such experience was my pivotal role in supporting Nyfasi Deluxe Detangler through my digital expertise. I provided comprehensive IT support to the founder, Dr. Youmna Mouhamad, a solofounder, by assisting her with e-commerce management, website development, and technical solutions that streamlined operations. Specifically, I contributed to the development and maintenance of the Nyfasi Shopify website, ensuring a seamless user experience, successful sales, while also supporting digital marketing efforts and brand awareness initiatives.\n\nBeyond technical support, I also played a key role in helping Nyfasi gain early traction, ensuring that the digital infrastructure was ready to support sales growth. By helping Nyfasi launch its first 500 units with minimal investment, I contributed to a key milestone in the startup's journey.",
+
+    "experience": [
+      {
+        "title": "Digital Technical Mentor",
+        "company": "University of South Wales",
+        "dates": "Sept 2023 - Aug 2024",
+        "responsibilities": [
+          "Delivered training sessions on digital tools and software platforms",
+          "Created documentation for support process optimisation",
+          "Provided hands-on IT support and technical assistance",
+          "Managed departmental communications and inquiries via email/instant chat",
+          "Coordinated tutoring assignments based on student needs"
+        ]
+      },
+      {
+        "title": "End User Computing Desktop Support",
+        "company": "University of South Wales",
+        "dates": "Sept 2023 – Aug 2024",
+        "responsibilities": [
+          "Managed technical support across multiple campuses for over 23,000 users",
+          "Provided user and account support while administering virtual application delivery",
+          "Created documentation guides and managed Azure Active Directory accounts",
+          "Supported Microsoft 365 applications and implemented security protocols"
+        ]
+      },
+      {
+        "title": "STEM Ambassador & Technical Trainer",
+        "company": "Technocamps",
+        "dates": "July 2022 - Aug 2024",
+        "responsibilities": [
+          "Developed A-Level DigiTech websites using Figma, HTML, CSS and JavaScript",
+          "Mentored students in UI/UX design principles and GitHub version control",
+          "Delivered CPD training to Welsh educators on digital teaching strategies",
+          "Integrated LEGO® SPIKE™ kits to teach Python and robotics fundamentals",
+          "Provided comprehensive IT support and systems configuration for faculty",
+          "Researched applications of Generative AI tools for neurodiverse education",
+          "Implemented GitHub Education resources to enhance workshop engagement"
+        ]
+      },
+      {
+        "title": "Executive Assistant",
+        "company": "Nyfasi eCommerce",
+        "dates": "Sept 2020 – Dec 2020",
+        "responsibilities": [
+          "Development and maintenance of Shopify website",
+          "Supported digital marketing, R&D and brand awareness",
+          "Provided technical support for content creation"
+        ]
+      },
+      {
+        "title": "Checkout Customer Assistant",
+        "company": "Tesco Superstore",
+        "dates": "June 2016 - July 2020",
+        "responsibilities": [
+          "Maintained exceptional customer service in high-volume retail environment",
+          "Developed problem-solving skills managing diverse customer needs",
+          "Coordinated with team members to deliver efficient service",
+          "Trained new staff on POS systems and service protocols"
+        ]
+      }
+    ],
+
+    "projects": [
+      {
+        "name": "Netlify Website Project",
+        "url": "m25-cobham.netlify.app",
+        "description": "Built a motorway services information website using HTML, CSS, and JavaScript, incorporating graphic design elements leveraging Adobe Creative Suite"
+      },
+      {
+        "name": "WordPress Project: E.n.n.e.@I. C.T Project",
+        "url": "www.enneict.wordpress.com",
+        "description": "Created a comprehensive technical resource hub using WordPress to deliver detailed guides on system configuration, hardware assembly, and component analysis"
+      },
+      {
+        "name": "IT Infrastructure with SSO Integration Project",
+        "description": "Engineered a VMware environment integrating Active Directory SSO and PowerShell automation for streamlined authentication and management"
+      }
+    ],
+
+    "education": [
+      {
+        "qualification": "AWS Cloud Engineering re/Start Bootcamp",
+        "institution": "Cardiff and Vale College",
+        "dates": "Sept 2024",
+        "details": "Gained expertise in cloud-native application design, network architecture, and security"
+      },
+      {
+        "qualification": "BSc (Hons) ICT",
+        "institution": "University of South Wales",
+        "dates": "June 2024",
+        "classification": "Second Class Honours (2:1)",
+        "dissertation": "Levelling the Playing Field Using Generative AI Coding Assistant – an Implementation of RAG Architecture (attained First Class Honours)"
+      }
+    ],
+
+    "skills": {
+      "cloud_microsoft": ["Azure Active Directory", "Azure Virtual Desktop", "Microsoft 365 Suite / Admin", "Group Policy Management", "PaperCut"],
+      "programming": ["JSON / YAML", "HTML/CSS/MySQL", "Bash/Shell", "LAMP / VB.NET/C#", "PowerShell"],
+      "network_security": ["DNS Principles", "Packet Tracer", "GDPR Compliance", "Information Security", "Wireshark", "cPanel functionality"],
+      "virtualisation": ["Azure Virtual Desktop", "AppsAnywhere", "VMware Workstation", "Docker, Kubernetes basics", "Splashtop"],
+      "systems_automation": ["PowerShell", "Python, Excel", "Windows/macOS", "Android systems", "Linux CLI", "Power BI"],
+      "dev_tools": ["Visual Studio Code", "Git/Version Control", "HTML/CSS", "JavaScript", "Bootstrap / Bootstrap Studio", "Tailwind CSS"],
+      "collaboration": ["Microsoft Teams (admin)", "Slack", "Zoom", "Google Meet"],
+      "languages": ["English (Native)", "Italian (Native)", "Clear Communication", "Customer Engagement", "Cultural sensitivity"]
+    },
+
+    "references": "Available upon request"
+  }
+}
