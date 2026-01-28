@@ -66,6 +66,180 @@ Use these templates to create your own documentation:
 - [Evidence Template](templates/EVIDENCE_TEMPLATE.md)
 - [Lessons Learned Template](templates/LESSONS_LEARNED_TEMPLATE.md)
 
+### 📊 Processed Outputs
+
+Synthesised analysis and professional documentation:
+
+- [SFIA Skills Mapping](processed-outputs/sfia-mapping/README.md) - *Professional experiences mapped to the SFIA framework with value proposition analysis*
+- [LaTeX CV](processed-outputs/latex-cv/) - *Formal CV documentation*
+
+---
+
+## 🎯 SFIA Skills Framework Overview
+
+### What is SFIA?
+
+The **Skills Framework for the Information Age (SFIA)** is the globally recognised framework used by organisations worldwide to define, assess, and develop digital and IT skills. SFIA 9 (the current version as of 2025/2026) provides a common reference model used by:
+
+- **UK Government**: The Digital, Data and Technology (DDaT) Profession Capability Framework is built on SFIA
+- **Public Sector**: NHS, Local Authorities, Civil Service use SFIA for role definitions and pay grading
+- **Private Sector**: Major consultancies, banks, and tech companies use SFIA for career frameworks
+- **International**: Adopted across Europe, Australia, and increasingly worldwide
+
+### SFIA Levels of Responsibility
+
+SFIA defines **7 levels of responsibility** from Level 1 (Follow) to Level 7 (Set Strategy). Each level represents increasing autonomy, influence, complexity, and business impact:
+
+| Level | Title | Autonomy | Influence | Complexity | Business Skills |
+|-------|-------|----------|-----------|------------|-----------------|
+| **7** | Set Strategy | Leads organisation-wide | Industry-wide | Highly complex, strategic | Directs organisation's technical strategy |
+| **6** | Initiate, Influence | Full accountability | Major business areas | Highly complex, unpredictable | Shapes major organisational decisions |
+| **5** | Ensure, Advise | Full responsibility for own work | Broad internal & external | Complex, unpredictable | Significant organisational influence |
+| **4** | Enable | Substantial autonomy | Own area of responsibility | Complex, varied | Plans and manages own work |
+| **3** | Apply | Works under general direction | Own work and team | Moderately complex | Applies sound judgement |
+| **2** | Assist | Routine supervision | Limited | Straightforward | Developing understanding |
+| **1** | Follow | Close direction | Minimal | Simple | Basic understanding |
+
+### My SFIA Skills Scorecard
+
+Based on documented experiences across 8 organisations and 6 industries, my skills map to the following SFIA competencies (15 skills across 6 categories):
+
+#### Strategy & Architecture
+| Skill | Code | My Level | Description |
+|-------|------|----------|-------------|
+| Innovation | INOV | **Level 3-4** | Identifying opportunities, creating proposals, supporting experimentation |
+| Strategic Planning | STPL | **Level 3** | Contributing to strategy development, providing insights |
+
+#### Change & Transformation
+| Skill | Code | My Level | Description |
+|-------|------|----------|-------------|
+| Product Management | PROD | **Level 4** | Managing products throughout lifecycle, meeting customer needs |
+| Benefits Management | BENM | **Level 3** | Identifying and monitoring benefits, ensuring value realisation |
+
+#### Development & Implementation
+| Skill | Code | My Level | Description |
+|-------|------|----------|-------------|
+| User Experience Design | HCEV | **Level 4** | Designing accessible, usable interfaces meeting user needs |
+| Software Design | SWDN | **Level 3** | Designing software components, defining interfaces |
+| Testing | TEST | **Level 3** | Planning and executing tests, evaluating software quality |
+
+#### Delivery & Operations
+| Skill | Code | My Level | Description |
+|-------|------|----------|-------------|
+| User Support | USUP | **Level 3-4** | Providing technical support, resolving incidents (23,000+ users) |
+| IT Infrastructure | ITOP | **Level 3** | Operating IT infrastructure, ensuring availability and security |
+
+#### People & Skills
+| Skill | Code | My Level | Description |
+|-------|------|----------|-------------|
+| Learning Delivery | ETDL | **Level 3-4** | Delivering training, workshops, coaching sessions |
+| Learning Management | LEDA | **Level 3** | Planning learning activities, identifying needs |
+
+#### Relationships & Engagement
+| Skill | Code | My Level | Description |
+|-------|------|----------|-------------|
+| Stakeholder Management | RLMT | **Level 3-4** | Managing relationships, ensuring effective engagement |
+| Business Analysis | BUAN | **Level 3** | Investigating and documenting business processes |
+
+#### Data & Digital
+| Skill | Code | My Level | Description |
+|-------|------|----------|-------------|
+| Data Analysis | DTAN | **Level 3** | Collecting, analysing, and interpreting data |
+| Digital Accessibility | DLMG | **Level 4** | Ensuring products are accessible to all users |
+
+### SFIA Rate Card Guidance: Public vs Private Sector
+
+SFIA levels are commonly used to inform pay grades and contractor day rates in both public and private sectors. Below is indicative guidance for UK market rates (2025/2026):
+
+#### UK Public Sector (DDaT Framework Aligned)
+
+The UK Government Digital, Data and Technology (DDaT) framework uses SFIA for role definitions. Typical permanent salary bands and contractor rates:
+
+| SFIA Level | DDaT Grade Equivalent | Permanent Salary Range | Day Rate (Inside IR35) |
+|------------|----------------------|------------------------|------------------------|
+| Level 2-3 | Junior/Associate | £28,000 - £42,000 | £250 - £350 |
+| Level 3-4 | Mid-Level/Practitioner | £42,000 - £58,000 | £350 - £500 |
+| Level 4-5 | Senior/Lead | £58,000 - £78,000 | £500 - £650 |
+| Level 5-6 | Principal/Head | £78,000 - £100,000+ | £650 - £850 |
+| Level 6-7 | Director/Chief | £100,000 - £150,000+ | £850 - £1,200 |
+
+**Note**: Public sector rates are typically lower than private sector but offer job security, pension benefits, and work-life balance.
+
+#### UK Private Sector
+
+Private sector rates vary significantly by industry, company size, and location. Typical ranges:
+
+| SFIA Level | Role Equivalents | Permanent Salary Range | Day Rate (Contract) |
+|------------|-----------------|------------------------|---------------------|
+| Level 2-3 | Junior Developer/Analyst | £35,000 - £50,000 | £300 - £450 |
+| Level 3-4 | Mid Developer/Designer/PO | £50,000 - £70,000 | £450 - £600 |
+| Level 4-5 | Senior/Lead/Principal | £70,000 - £95,000 | £600 - £800 |
+| Level 5-6 | Staff/Head/Director | £95,000 - £140,000 | £800 - £1,100 |
+| Level 6-7 | VP/C-Level | £140,000 - £250,000+ | £1,100 - £1,500+ |
+
+**Note**: London rates typically command a 15-25% premium. Startup equity can supplement lower base salaries.
+
+### My Position: Where I Sit
+
+Based on my SFIA mapping, my predominant skill levels are **Level 3-4** across 15 competencies. This positions me for:
+
+**Public Sector Roles:**
+- 🎯 **Mid-Level Digital Professional** (DDaT Practitioner to Senior)
+- Permanent salary range: £42,000 - £58,000
+- Contract day rate: £350 - £500 (Inside IR35)
+- Suitable roles: Product Manager, UX Designer, Service Designer, Digital Support Lead, Training Lead
+
+**Private Sector Roles:**
+- 🎯 **Mid to Senior Professional** (Individual Contributor to Team Lead)
+- Permanent salary range: £50,000 - £70,000
+- Contract day rate: £450 - £600
+- Suitable roles: Product Owner, UX Lead, Digital Consultant, EdTech Specialist, Accessibility Lead
+
+**Best Fit Industries (Based on Experience):**
+- 🏛️ Higher Education & EdTech
+- 🏥 Healthcare & NHS Digital
+- 🤝 Social Enterprise & Charity Sector
+- 🚀 Startups & Scale-ups
+- 🏢 Government & Public Sector Digital
+
+### Career Progression Path
+
+```mermaid
+graph LR
+    subgraph Current["Current Position (SFIA 3-4)"]
+        A[Product Owner]
+        B[UX Designer]
+        C[Digital Support]
+    end
+    
+    subgraph Next["Next Level (SFIA 4-5)"]
+        D[Senior Product Manager]
+        E[Lead UX Designer]
+        F[Service Design Lead]
+    end
+    
+    subgraph Future["Future (SFIA 5-6)"]
+        G[Head of Product]
+        H[Principal Designer]
+        I[Digital Transformation Lead]
+    end
+    
+    A --> D
+    B --> E
+    C --> F
+    D --> G
+    E --> H
+    F --> I
+```
+
+### SFIA Resources
+
+- 📖 [Full SFIA Mapping Details](processed-outputs/sfia-mapping/README.md) - Complete skill-by-skill analysis with evidence
+- 🌐 [SFIA Foundation](https://sfia-online.org) - Official SFIA website
+- 🇬🇧 [UK DDaT Framework](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework) - Government digital profession standards
+
+---
+
 ## Key Features
 
 ### 📊 Rich Documentation with Charts
