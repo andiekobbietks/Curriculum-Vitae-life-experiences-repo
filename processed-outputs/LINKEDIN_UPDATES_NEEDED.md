@@ -2,27 +2,34 @@
 
 This file contains content from your CV that's **missing from your LinkedIn profile**. Copy and paste the relevant sections below to update your LinkedIn.
 
+**🔍 IMPORTANT ROLE CLARIFICATIONS (Updated Jan 28, 2026):**
+- **PRGRSS:** Your role evolved through multiple responsibilities - Product Coordination, Customer Success, and QA Leadership (official title: "Product & User Support Coordinator" per July 18, 2025 assignment)
+- **FirstGens:** You were a founding team member (Dec 2023 start), not just advisory. Multiple roles: Advisory Board, Tech Advisor, NavigateU Coordinator, Content Strategist, working closely with CEO Alaya and Josie
+- **Note:** WhatsApp analysis found no evidence of "Brand Ambassador" formal title or "FinOps" (Financial Operations) role - if these were informal or you have other evidence, feel free to add them
+
 ---
 
 ## 🔴 MISSING WORK EXPERIENCE (Add to Experience Section)
 
 ### 1. PRGRSS Mentoring Platform
-**Title:** Product Manager & UX Designer  
+**Title:** Product & User Support Coordinator  
 **Company:** PRGRSS  
 **Employment Type:** Contract  
 **Dates:** April 2025 - July 2025 (4 months)  
 **Location:** Remote  
 
 **Description:**
-- Designed and shipped mentoring platform launched on Android & Apple app stores
-- Built interactive prototypes using Lovable for admin dashboards, mentor-mentee messaging flows, and job listings interfaces
-- Established messaging workflow documentation including rate-limiting (5 msgs/day post-session, 3 msgs/day pre-session)
-- Managed Firebase backend and React/TypeScript frontend integration with development team
-- Collected and prioritized mentee feedback from 21-22 attendees at webinars, driving product improvements
-- Coordinated penetration testing and security hardening with CISO/ethical hackers
-- Created development tickets in Jira and technical specifications for mentee booking limits and feedback forms
+Served in an evolving multi-faceted role encompassing product coordination, customer success, and QA leadership for mentoring platform launched on Android & Apple app stores.
 
-**Skills:** Product Management • UX Design • Firebase • React • TypeScript • Jira • Prototyping • User Research • Agile Development
+- Built interactive prototypes using Lovable for admin dashboards, mentor-mentee messaging flows, and job listings interfaces
+- Led user support coordination: collected and prioritized mentee feedback from 21-22 attendees at webinars, managed individual mentee calls, and coordinated developer standup meetings
+- Established QA processes including app testing protocols, identifying QA talent from testing groups, and coordinating bug reporting workflows
+- Managed customer success initiatives: compiled mentee testimonials, coordinated feedback loops between users and development team via Slack, created Jira tickets for feature requests
+- Established messaging workflow documentation including rate-limiting specifications (5 msgs/day post-session, 3 msgs/day pre-session)
+- Coordinated Firebase backend and React/TypeScript frontend integration with development team, translating user needs into technical requirements
+- Coordinated penetration testing and security hardening initiatives with CISO/ethical hackers
+
+**Skills:** Product Coordination • Customer Success • QA Leadership • User Support • Firebase • React • TypeScript • Jira • Prototyping • User Research • Agile Development • Testing Coordination
 
 ---
 
@@ -118,18 +125,42 @@ This file contains content from your CV that's **missing from your LinkedIn prof
 ---
 
 ### 7. FirstGens
-**Title:** Community Advisory Group Member - Strategic Advisor  
+**Title:** Founding Team Member & Multi-Role Contributor  
 **Company:** FirstGens  
-**Dates:** Dec 2023 - April 2024 (5 months)  
+**Dates:** Dec 2023 - Present (1 year 2 months)  
 **Location:** United Kingdom  
 
 **Description:**
-- Served on advisory board for first-generation student support nonprofit (now CIC - Community Interest Company)
-- Led university stakeholder engagement with USW for widening participation partnerships
-- Mentored international students on UK market navigation and career development
-- Organized webinars, case studies, and program evaluation sessions
+Founding team member for first-generation student support organization (now CIC - Community Interest Company), joining at inception in December 2023 and contributing to organizational growth over 2+ years.
 
-**Skills:** Advisory • Strategic Planning • Stakeholder Engagement • Mentoring • Community Development • Higher Education
+**Multiple Roles:**
+
+**Community Advisory Board Member:**
+- Provided strategic guidance on accessibility, technology integration, and brand positioning ("Daring, Diverse, Dynamic")
+- Led university stakeholder engagement with USW for widening participation partnerships and UCAS webpage project
+- Contributed to organizational strategy and program evaluation
+
+**Tech Advisor:**
+- Led website migration and data architecture decisions
+- Platform strategy and ongoing technical support recognized by CEO as essential to operations
+- Multi-year technical infrastructure contribution
+
+**NavigateU Session Coordinator:**
+- Managed webinar logistics, collected unanswered questions, and summarized guest speaker points
+- Captured engagement metrics and facilitated session flow for CEO Alaya and coordinator Josie
+- Enhanced participant experience through technical coordination and "hypeman" engagement
+
+**Content Strategist:**
+- Contributed to impact reports and UCAS website project
+- Platform design recommendations (collapsible testimonials, financial literacy resources)
+- Multi-year content development across organization initiatives
+
+**Mentoring & Networking:**
+- Mentored international students on UK market navigation and career development
+- Leveraged extensive networking to support FirstGens' mission and growth
+- Direct support to CEO Alaya and team coordinator Josie
+
+**Skills:** Strategic Advisory • Founding Team Leadership • Tech Advisory • Event Coordination • Content Strategy • Community Development • Higher Education • Platform Strategy • Website Migration • Mentoring • Stakeholder Engagement
 
 ---
 
