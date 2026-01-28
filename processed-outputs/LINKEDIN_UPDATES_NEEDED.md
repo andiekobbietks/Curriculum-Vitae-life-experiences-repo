@@ -125,7 +125,7 @@ Served in an evolving multi-faceted role encompassing product coordination, cust
 ---
 
 ### 7. FirstGens
-**Title:** Founding Team Member & Multi-Role Contributor  
+**Title:** Founding Team Member, Brand Ambassador & Multi-Role Contributor  
 **Company:** FirstGens  
 **Dates:** Dec 2023 - Present (1 year 2 months)  
 **Location:** United Kingdom  
@@ -134,6 +134,11 @@ Served in an evolving multi-faceted role encompassing product coordination, cust
 Founding team member for first-generation student support organization (now CIC - Community Interest Company), joining at inception in December 2023 and contributing to organizational growth over 2+ years.
 
 **Multiple Roles:**
+
+**Brand Ambassador:**
+- Actively promote FirstGens mission through extensive networking and stakeholder connections
+- Advocate for first-generation students across professional and educational communities
+- Leverage personal and professional networks to expand organization reach and impact
 
 **Community Advisory Board Member:**
 - Provided strategic guidance on accessibility, technology integration, and brand positioning ("Daring, Diverse, Dynamic")
@@ -160,7 +165,7 @@ Founding team member for first-generation student support organization (now CIC 
 - Leveraged extensive networking to support FirstGens' mission and growth
 - Direct support to CEO Alaya and team coordinator Josie
 
-**Skills:** Strategic Advisory • Founding Team Leadership • Tech Advisory • Event Coordination • Content Strategy • Community Development • Higher Education • Platform Strategy • Website Migration • Mentoring • Stakeholder Engagement
+**Skills:** Brand Ambassador • Strategic Advisory • Founding Team Leadership • Tech Advisory • Event Coordination • Content Strategy • Community Development • Higher Education • Platform Strategy • Website Migration • Mentoring • Stakeholder Engagement
 
 ---
 
